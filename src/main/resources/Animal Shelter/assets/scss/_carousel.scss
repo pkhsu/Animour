@@ -1,0 +1,261 @@
+#carousel-area {
+  overflow: hidden;
+  background: #2c3e50;
+  .carousel-inner {
+    .carousel-item {
+      opacity: 0.3;
+      width: 100%;
+      overflow: hidden;
+      transition-property: opacity;
+      transition-duration: 1s;
+    }
+    .active {
+      opacity: 1;
+      &.left, &.right {
+        left: 0;
+        opacity: 0;
+        z-index: 1;
+      }
+    }
+    .next.left, .prev.right {
+      opacity: 1;
+    }
+  }
+  .carousel-control {
+    z-index: 2;
+  }
+  .carousel-item {
+    img{
+      position: relative;
+      width: 100%;
+      max-height: 670px;
+    }
+    .carousel-caption {
+      top: 33%;
+      right: 10%;
+      left: 10%;
+      text-shadow: none;
+      h2 {
+        font-family: 'Muli', sans-serif;
+        font-size: 70px;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+      }
+      h3 {
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+        font-size: 24px;
+        color: #fff;
+        font-weight: 100;
+      }
+      .btn {
+        margin: 30px 15px;
+      }
+    }
+  }
+  .active {
+    opacity: 1;
+    &.left, &.right {
+      left: 0;
+      opacity: 0;
+      z-index: 1;
+    }
+  }
+  .carousel-control {
+    z-index: 10;
+    width: 35px;
+    height: 55px;
+    top: 50%;
+    padding: 10px 5px;
+    box-shadow: none;
+    background: url(../img/skin.png);
+    text-shadow: none;
+  }
+  .carousel-control-prev-icon {
+    left: 5%;
+  }
+  .carousel-control-next-icon {
+    right: 5%;
+    background-position: -150px 0px !important;
+  }
+  .carousel-indicators {
+    bottom: 5px;
+    li {
+      border-radius: 0px;
+      width: 32px;
+      height: 5px;
+      margin: 0 5px;
+      background: rgba(253, 254, 255, 0.8);
+      cursor: pointer;
+      border: none;
+      transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -webkit-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      &:hover, &.active {
+        opacity: 1;
+      }
+    }
+  }
+  &:hover .carousel-control {
+    display: block;
+  }
+  i {
+    margin-right: 5px;
+  }
+  /* Carouse Area Two */
+  .carousel-two{
+    .carousel-caption{
+      top: 25%;
+      left: 12%;
+      .btn{
+        margin: 30px 0px;
+      }
+    }
+    h2{
+      font-weight: 700;
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    p{
+      color: #fff;
+      -webkit-animation-name: fadeInUp;
+      animation-name: fadeInUp;
+      -webkit-animation-duration: 1.2s;
+      animation-duration: 1.2s;
+      
+    }
+  }
+}
+#carousel-news {
+  overflow: hidden;
+  background: #2c3e50;
+  .carousel-inner {
+    .carousel-item {
+      opacity: 0.3;
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+      transition-property: opacity;
+      transition-duration: 1s;
+    }
+    .active {
+      opacity: 1;
+      &.left, &.right {
+        left: 0;
+        opacity: 0;
+        z-index: 1;
+      }
+    }
+    .next.left, .prev.right {
+      opacity: 1;
+    }
+  }
+  .carousel-control {
+    z-index: 2;
+  }
+  .carousel-item {
+    img{
+      position: relative;
+      width: 100%;
+      max-height: 670px;
+    }
+    .carousel-caption {
+      top: 33%;
+      right: 10%;
+      left: 10%;
+      text-shadow: none;
+      h2 {
+        font-family: 'Muli', sans-serif;
+        font-size: 70px;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+      }
+      h3 {
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+        font-size: 24px;
+        color: #fff;
+        font-weight: 100;
+      }
+      .btn {
+        margin: 30px 15px;
+      }
+    }
+  }
+  .active {
+    opacity: 1;
+    &.left, &.right {
+      left: 0;
+      opacity: 0;
+      z-index: 1;
+    }
+  }
+  .carousel-control {
+    z-index: 10;
+    width: 35px;
+    height: 55px;
+    top: 50%;
+    padding: 10px 5px;
+    box-shadow: none;
+    background: url(../img/skin.png);
+    text-shadow: none;
+  }
+  .carousel-control-prev-icon {
+    left: 5%;
+  }
+  .carousel-control-next-icon {
+    right: 5%;
+    background-position: -150px 0px !important;
+  }
+  .carousel-indicators {
+    bottom: 5px;
+    li {
+      border-radius: 0px;
+      width: 32px;
+      height: 5px;
+      margin: 0 5px;
+      background: rgba(253, 254, 255, 0.8);
+      cursor: pointer;
+      border: none;
+      transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -webkit-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      &:hover, &.active {
+        opacity: 1;
+      }
+    }
+  }
+  &:hover .carousel-control {
+    display: block;
+  }
+  i {
+    margin-right: 5px;
+  }
+  /* Carouse Area Two */
+  .carousel-two{
+    .carousel-caption{
+      top: 25%;
+      left: 12%;
+      .btn{
+        margin: 30px 0px;
+      }
+    }
+    h2{
+      font-weight: 700;
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    p{
+      color: #fff;
+      -webkit-animation-name: fadeInUp;
+      animation-name: fadeInUp;
+      -webkit-animation-duration: 1.2s;
+      animation-duration: 1.2s;
+      
+    }
+  }
+}

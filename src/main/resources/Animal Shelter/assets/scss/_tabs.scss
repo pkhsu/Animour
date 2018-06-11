@@ -1,0 +1,157 @@
+/* Shortcode Tabs Page Styles */
+#default-tab ul.nav-tabs {
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+ul.nav-tabs li {
+  float: left;
+  margin-top: 0;
+  a {
+    border: medium none !important;
+    color: #a0a0a0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+  }
+}
+#default-tab {
+  .nav-tabs > li {
+    > a.active {
+      border: 0 none;
+      position: relative;
+    }
+    a.active {
+      &:focus, &:hover {
+        border: 0 none;
+        position: relative;
+      }
+    }
+  }
+  ul.nav-tabs > li a.active::before {
+    bottom: -14px;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
+}
+#round-tab ul {
+  &.nav-tabs {
+    margin-bottom: 10px;
+    border-bottom: none;
+  }
+  li a {
+    &.active {
+      -moz-border-bottom-colors: none !important;
+      -moz-border-left-colors: none !important;
+      -moz-border-right-colors: none !important;
+      -moz-border-top-colors: none !important;
+      border-bottom: 0 none;
+      border-image: none !important;
+      margin-bottom: 0;
+    }
+    margin-bottom: 0;
+    padding: 15px !important;
+    text-transform: capitalize;
+  }
+}
+#vertical-tab {
+  .nav-tabs {
+    display: table-cell;
+    vertical-align: top;
+  }
+  .tab-content {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0 25px;
+  }
+  .tab-pane p {
+    line-height: 25px;
+  }
+  ul.nav-tabs {
+    border: 1px solid #b9b9b9 !important;
+    padding-right: 0px;
+  }
+  .nav-tabs li {
+    float: none;
+    margin: 0;
+  }
+  ul.nav-tabs {
+    li a {
+      text-align: center;
+      margin: 0;
+      padding: 20px 40px;
+      white-space: nowrap;
+      width: 100%;
+      border-radius: 0;
+      background: #EEEEEE;
+      color: #676767;
+      border-bottom: 3px solid #b9b9b9 !important;
+      .fa {
+        display: block;
+        font-size: 27px;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      &.active {
+        > .fa {}
+        background: #fff none repeat scroll 0 0;
+        color: #202020;
+      }
+    }
+    border: 0 none;
+  }
+}
+#tab-with-icon {
+  .nav-tabs {
+    border-bottom: medium none;
+    float: left;
+    display: table-cell;
+    vertical-align: top;
+    li {
+      float: none;
+      a {
+        background: transparent none repeat scroll 0 0;
+        border: medium none;
+        margin: 0;
+        padding: 0;
+        i {
+          background: #81868e none repeat scroll 0 0;
+          border-radius: 50%;
+          color: #fff;
+          cursor: pointer;
+          float: left;
+          font-size: 25px;
+          height: 70px;
+          line-height: 70px;
+          margin: 0px 0 20px;
+          text-align: center;
+          transition: all 0.5s ease 0s;
+          width: 70px;
+        }
+      }
+    }
+  }
+  .tab-content {
+    margin: 20px 0 0 100px;
+  }
+  h3 {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  p.lead {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 25px;
+  }
+  .nav-tabs li a {
+    &:hover i, &:focus, &.active i {}
+  }
+}
+#default-tab a.nav-link {
+  background: none;
+}

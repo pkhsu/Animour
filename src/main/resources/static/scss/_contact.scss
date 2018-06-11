@@ -1,0 +1,137 @@
+/* ==========================================================================
+   Contact Page Start
+   ========================================================================== */
+	#content {
+	  padding-top: 30px;
+	  padding-bottom: 30px;
+	  min-height: 600px;
+	}
+
+	#contact {
+	  .contact-info-wrapper {
+	    margin-top: -60px;
+	    .contact-item-wrapper i {
+	      padding: 15px;
+	      width: 64px;
+	      height: 64px;
+	      border-radius: 50%;
+	      color: #fff;
+	    }
+	  }
+	  .map {
+	    position: relative;
+	  }
+	  .contact-info {
+	    background: #666;
+	    color: #fff;
+	    padding: 30px 0;
+	  }
+	  .contact-form-wrapper {
+	    background: url(../img/backgrounds/contact-form-bg.jpg);
+	    background-size: cover;
+	  }
+	  .form-control {
+	    margin-bottom: 45px;
+	    background: transparent;
+	    color: #fff;
+	  }
+	}
+
+	#contact2 {
+	  .contact-info-wrapper {
+	    margin-top: -10px;
+	    .contact-item-wrapper {
+	      padding: 15px 30px;
+	      i {
+	        color: #fff;
+	        float: left;
+	        padding: 8px 15px;
+	        font-size: 24px;
+	      }
+	      h4 {
+	        line-height: 40px;
+	        color: #FFF;
+	        font-size: 16px;
+	        font-weight: 400;
+	      }
+	    }
+	  }
+	  .form-control {
+	    margin-bottom: 30px;
+	  }
+	}
+	/* Subscription */
+	#subscription .subscription-form {
+	  .form-control {
+	    height: 60px;
+	    font-size: 24px;
+	    color: #999;
+	  }
+	  .btn {
+	    padding: 18px;
+	  }
+	}
+
+	/* Google Map */
+	#google-map-shortcode {
+	  padding: 0;
+	  height: 400px;
+	}
+	#google-map-contact {
+	  padding: 0;
+	  height: 300px;
+	}
+	#google-map-contact2 {
+	  padding: 0;
+	  height: 200px;
+	}
+	.error-section h1 {
+	  color: #ff2a40;
+	  font-size: 10rem;
+	}
+	.error-section h4 {
+	  text-transform: capitalize;
+	}
+	.contact-title-text {
+	  h2 {
+	    font-size: 40px;
+	  }
+	  p {
+	    font-size: 18px;
+	    margin-top: 15px;
+	  }
+	}
+	.contact-widget {
+	  margin-bottom: 30px;
+	  h2 {
+	  	font-size: 25px;
+	    margin-bottom: 20px;
+	  }
+	  address {
+	    line-height: 45px;
+	  }
+	  &.office-location span {
+	    font-weight: 500;
+	  }
+	}
+	#contactForm .form-group {
+	  .contact-control {
+	    background: #f8fafd none repeat scroll 0 0;
+	    border-radius: 0;
+	    height: 50px;
+	  }
+	  margin-bottom: 19px;
+	  .form-control {
+	    border-radius: 0;
+	    background: #f2f2f2 none repeat scroll 0 0;
+	    font-size: 14px;
+	  }
+	}
+	ul.contact-info2 {
+	  list-style: outside none none;
+	  margin-top: 20px;
+	  padding: 0;
+	  i.fa {
+	    margin-right: 10px;
+	  }
+	}

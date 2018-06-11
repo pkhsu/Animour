@@ -1,0 +1,47 @@
+/* ==========================================================================
+   Featured Section Start
+   ========================================================================== */
+.featured-box {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  .featured-icon {
+    float: left;
+    i {
+      font-size: 28px;
+      text-align: center;
+      float: left;
+      margin-right: 25px;
+      margin-bottom: 85px;
+      display: block;
+    }
+  }
+  .featured-content {
+    padding-left: 40px;
+    h4 {
+      font-size: 17px;
+      margin-bottom: 10px;
+      transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -webkit-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+    }
+    p {
+      font-size: 13px;
+    }
+  }
+}
+.feature-s{
+  .featured-icon{
+    i{
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+      line-height: 80px;
+      font-size: 26px;
+      background-color: #f9f9f9;
+      border-radius: 50%;
+      margin-bottom: 30px;
+    }
+  }
+}
+    

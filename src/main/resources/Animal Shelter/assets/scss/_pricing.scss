@@ -1,0 +1,159 @@
+/* ==========================================================================
+   Pricing Section Start
+   ========================================================================== */
+  #pricing {
+    background: url(../img/backgrounds/pricing-bg.jpg);
+    .section-title, .section-subcontent {
+      color: #fff;
+    }
+  }
+  .pricing-table-1 {
+    background: #fff;
+    margin: 0 15px;
+    .table-header {
+      padding: 30px 0;
+      h3 {
+        color: #fff;
+        font-size: 24px;
+      }
+    }
+    .plan {
+      border-bottom: 1px solid rgba(189, 195, 199, 0.5);
+      .price {
+        font-size: 24px;
+      }
+      .period {
+        font-size: 18px;
+        color: #999;
+        text-transform: uppercase;
+      }
+    }
+    .plan-info {
+      margin-top: 30px;
+      p {
+        color: #bdc3c7;
+        font-size: 16px;
+        line-height: 30px;
+      }
+    }
+    .button-area {
+      padding: 30px 0 45px 0;
+    }
+  }
+
+  #pricing-block-x {
+    background: #ecf0f1;
+  }
+
+  .pricing-table-x {
+    background: rgba(0, 0, 0, 0.7);
+    margin: 0 15px;
+    padding: 15px 30px;
+    .table-header {
+      padding: 15px 0;
+      
+      h3 {
+        color: #fff;
+        font-size: 24px;
+      }
+    }
+    .plan {
+      .price {
+        font-size: 30px;
+      }
+      .period {
+        font-size: 18px;
+        color: rgba(231, 76, 60, 0.7);
+        text-transform: uppercase;
+      }
+    }
+    .plan-info {
+      margin-top: 30px;
+      p {
+        color: #fff;
+        font-size: 16px;
+        line-height: 16px;
+        i {
+          margin-right: 5px;
+        }
+      }
+    }
+    .button-area {
+      padding: 30px 0 40px 0;
+    }
+  }
+
+  /* Pricing Table 2 */
+  .pricing-table2 {
+    margin-bottom: 15px;
+  }
+
+  .single-pricing-2 {
+    border: 1px solid #dedede;
+    .plan-name {
+      display: block;
+      font-size: 24px;
+      line-height: 30px;
+      padding: 20px 0;
+      small {
+        display: block;
+        font-size: 15px;
+        margin-top: 15px;
+        line-height: normal;
+      }
+    }
+    .plan-price {
+      background: #f2f2f2 none repeat scroll 0 0;
+      font-size: 48px;
+      margin-bottom: 30px;
+      padding: 30px 0;
+      text-align: center;
+    }
+  }
+
+  .featured .plan-price {
+    color: #fff !important;
+    background: #ff5959;
+  }
+
+  .premium .plan-price {
+    background: #3498db !important;
+    color: #fff !important;
+  }
+
+  .single-pricing-2 {
+    .plan-price {
+      font-weight: 500;
+      .currency {
+        font-size: 50%;
+        left: -0.01em;
+        top: -0.9em;
+      }
+      sub {
+        font-size: 18px;
+      }
+    }
+    ul {
+      background: #fff none repeat scroll 0 0;
+      margin-bottom: 0;
+      padding: 0;
+      li {
+        border-top: 1px dashed #dedede;
+        font-weight: 400;
+        padding: 12px 29px;
+        text-align: center;
+        &:first-child {
+          border-top: 0;
+        }
+      }
+    }
+  }
+
+  .pricing2-button {
+    padding: 20px 0;
+    text-align: center;
+    .btn {
+      padding: 12px 55px;
+      text-transform: uppercase;
+    }
+  }

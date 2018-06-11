@@ -1,0 +1,189 @@
+/* ==========================================================================
+ Service Section Start
+ ========================================================================== */
+.service-item {
+  text-align: center;
+  .icon-wrapper {
+    font-size: 40px;
+    margin-bottom: 30px;
+    i {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+  }
+  p {
+    font-size: 13px;
+  }
+}
+
+/* Pulse Shrink */
+@-webkit-keyframes pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+
+@keyframes pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+
+.pulse-shrink {
+  display: inline-block;
+}
+
+.service-item:hover .pulse-shrink {
+  -webkit-animation-name: pulse-shrink;
+  animation-name: pulse-shrink;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+/* ==========================================================================
+ Other Service Section Start
+ ========================================================================== */
+#other-services {
+  background: #fff;
+  .nav-tabs {
+    border-bottom: none;
+    float: left;
+    display: table-cell;
+    vertical-align: top;
+    li {
+      float: none;
+      a {
+        border: none;
+        background: transparent;
+        margin: 0;
+        padding: 0;
+        i {
+          background: #81868e;
+          font-size: 20px;
+          text-align: center;
+          color: #fff;
+          float: left;
+          width: 50px;
+          border-radius: 50%;
+          height: 50px;
+          line-height: 50px;
+          margin: 10px 0;
+          cursor: pointer;
+          -webkit-transition: all 0.5s ease;
+          -moz-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+        }
+        &:hover i, &:focus, &.active i {}
+      }
+    }
+  }
+  .tab-content {
+    margin: 10px 0px 0px 80px;
+  }
+  .service-content {
+    h3 {
+      font-size: 17px;
+      margin-bottom: 25px;
+    }
+    p {
+      &.lead {
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 25px;
+      }
+      font-size: 14px;
+    }
+  }
+  .other-service-item {
+    padding-bottom: 30px;
+    .icon {
+      float: left;
+      .icon-medium {
+        background: #E74C3C;
+        font-size: 24px;
+        text-align: center;
+        color: #fff;
+        float: left;
+        width: 70px;
+        border-radius: 50%;
+        height: 70px;
+        line-height: 70px;
+        margin: 12px 0;
+        cursor: pointer;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+      }
+    }
+    .service-content {
+      padding-left: 100px;
+      h3 {
+        font-size: 24px;
+        clear: inherit;
+      }
+      p {
+        padding: 0px 36px 0px 0px;
+      }
+    }
+    &:hover .icon-medium {
+      -webkit-transform: rotateY(360deg);
+      -moz-transform: rotateY(360deg);
+      -o-transform: rotateY(360deg);
+      transform: rotateY(360deg);
+      -webkit-transition: all 0.6s linear;
+      -moz-transition: all 0.6s linear;
+      -o-transition: all 0.6s linear;
+      transition: all 0.6s linear;
+      background: #666;
+    }
+  }
+  img {
+    max-width: 100%;
+    padding: 22px;
+  }
+}
+/* Service 2 */
+.service2-single-service {
+  text-align: center;
+  margin: 20px 0;
+  .fa {
+    border-radius: 50%;
+    color: #fff;
+    font-size: 23px;
+    height: 75px;
+    line-height: 75px;
+    margin-bottom: 20px;
+    width: 75px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 13px;
+  }
+}
+
+
+
+
+
+
+

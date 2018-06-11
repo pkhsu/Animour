@@ -1,0 +1,533 @@
+/* Roof bar styles */
+
+#roof {
+  background: #3B3B3B;
+}
+
+.roof-content {
+  display: table;
+  height: 60px;
+  width: 100%;
+}
+
+.roof-middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.roof-menu {
+  margin-right: 15px;
+}
+
+.roof-social-icons a i.fa {
+  background: #484848 none repeat scroll 0 0;
+  border-radius: 50%;
+  font-size: 13px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  width: 35px;
+  color: #fff;
+  margin-right: 10px;
+  &:hover {}
+}
+
+.roof-menu ul {
+  list-style: none;
+  li {
+    float: left;
+    a {
+      color: #fff;
+      font-size: 12px;
+      line-height: 35px;
+      margin-right: 16px;
+      padding: 6px 9px;
+      text-transform: uppercase;
+    }
+    &.active a {
+      border-radius: 3px;
+      margin-right: 0;
+    }
+  }
+}
+
+.dropdown-item.active{
+  background-color: #9C3;
+  color: #fff;
+  &:focus, &:hover {
+    background-color: #9C3;
+    color: #fff;
+  }
+}
+.nav-bg{
+  background: #fff;
+}
+.navbar {
+  margin-bottom: 0;
+  padding: 0 15px;
+  li {
+    color: #666;
+  }
+}
+.navbar-engage.affix {
+  width: 100%;
+  top: 0;
+  z-index: 99999;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  .navbar-brand {
+    padding: 10px 15px;
+    height: 54px;
+    img {
+      width: 100px;
+    }
+  }
+  .navbar-nav > li > a {
+    margin: 10px 20px;
+    &:focus {
+      margin: 10px 20px;
+    }
+  }
+}
+.navbar-brand {
+  width: 130px;
+  padding-top: 0px;
+  height: auto;
+}
+.navbar-engage {
+  border: none;
+  border-radius: 0;
+  background: #fff;
+  .navbar-nav > {
+    li {
+      > a {
+        font-size: 14px;
+        padding: 28px 20px;
+        margin: 0px;
+        outline: 0;
+        color: #666;
+        font-weight: 400;
+        background: transparent;
+        &:focus {
+          font-size: 14px;
+          padding: 28px 20px;
+          margin: 0px;
+          outline: 0;
+          color: #666;
+          font-weight: 400;
+          background: transparent;
+        }
+        background: transparent;
+        padding-bottom: 5px;
+        color: #666;
+        position: relative;
+        &:before {
+          content: "";
+          display: inline-block;
+          width: 0px;
+          height: 1px;
+          position: absolute;
+          left: 1px;
+          bottom: 4px;
+          -webkit-transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+          -moz-transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+          -o-transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+          transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+        }
+      }
+      a:hover::before, &.active a::before, &.open > a::before {
+        width: 15px;
+      }
+    }
+    .active > a:focus::before {
+      width: 15px;
+    }
+    li {
+      a:focus > a::before {
+        background: transparent;
+      }
+      &.open a:focus {
+        background: transparent !important;
+      }
+      > a:hover {
+        background: transparent;
+      }
+    }
+    .active > a, li.open > a {
+      background: transparent;
+    }
+    .active > a {
+      &:hover, &:focus {
+        background: transparent;
+      }
+    }
+    .open > a:hover {
+      background: transparent;
+    }
+  }
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  &.show {
+    display: none;
+  }
+  -webkit-animation: fadeInUpMenu 0.4s;
+  -moz-animation: fadeInUpMenu 0.4s;
+  -ms-animation: fadeInUpMenu 0.4s;
+  -o-animation: fadeInUpMenu 0.4s;
+  animation: fadeInUpMenu 0.4s;
+}
+
+@-webkit-keyframes fadeInUpMenu {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUpMenu {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInUpMenu {
+  -webkit-animation-name: fadeInUpMenu;
+  animation-name: fadeInUpMenu;
+}
+
+.navbar-engage {
+  .dropdown-menu {
+    padding: 0;
+    border-style: solid;
+    border-width: 4px 0 0 0;
+    border-radius: 0;
+    left: 0;
+    right: 0;
+    a {
+      &.dropdown-item {
+        color: #666;
+        padding: 10px 0 10px 15px;
+        margin: 5px 0;
+        &:hover, .active {
+          background: #ecf0f1;
+        }
+      }
+      background: #ecf0f1;
+    }
+  }
+  .dropdown-item {
+    color: #666;
+    padding: 10px 0 10px 15px;
+    margin: 5px 0;
+  }
+  .sub-menu {
+    top: -1px;
+    left: 100% !important;
+    padding: 0;
+    border: none;
+    -webkit-animation: fadeInUpMenu 0.4s;
+    -moz-animation: fadeInUpMenu 0.4s;
+    -ms-animation: fadeInUpMenu 0.4s;
+    -o-animation: fadeInUpMenu 0.4s;
+    animation: fadeInUpMenu 0.4s;
+  }
+  .navbar-toggle {
+    border-radius: 0;
+  }
+}
+
+@-webkit-keyframes fadeInUpMenu {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUpMenu {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInUpMenu {
+  -webkit-animation-name: fadeInUpMenu;
+  animation-name: fadeInUpMenu;
+}
+
+.nav-inline .nav-item + .nav-item {
+  margin-left: 0px;
+}
+
+#main-menu {
+  ul {
+    > {
+      li > a {
+        background: transparent !important;
+        color: #333;
+        position: relative;
+        padding: 25px 20px;
+        font-weight: 400;
+        line-height: 18px;
+        text-transform: uppercase;
+      }
+      .dropdown:hover > ul.dropdown-menu {
+        display: block;
+        webkit-animation: MenuFadeIn 400ms;
+        animation: MenuFadeIn 400ms;
+        transition: all 0.3s ease-in-out 0s;
+      }
+    }
+    .dropdown .dropdown-menu {
+      padding: 0;
+      border-radius: 0;
+      left: 0;
+      right: 0;
+      margin-top: 0px;
+      width: 200px;
+      border: none;
+      box-shadow: 1px 4px 12px rgba(0, 0, 0, 0.175);
+      a {
+        font-size: 13px;
+        color: #666;
+        display: block;
+        height: auto;
+        padding: 12px 20px 13px;
+        line-height: 16px;
+        font-weight: 400;
+        border-bottom: 1px solid #e6e6e6;
+        transition: all 0.3s ease-in-out 0s;
+        &:hover {
+          background: transparent;
+          transition: all 0.3s ease-in-out 0s;
+        }
+      }
+      a:last-child{
+        border-bottom: none;
+      }
+    }
+  }
+  .dropdown .dropdown-menu a .active {
+    background: transparent;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  ul .dropdown {
+    .dropdown-menu > li {
+      > a:focus, &.active > a {
+        background: transparent;
+      }
+    }
+    .open > a {
+      background: transparent;
+      &:hover {
+        background: transparent;
+      }
+    }
+  }
+  .dropdown .open > a {
+    &:focus, &.active {
+      background: transparent;
+    }
+  }
+  ul {
+    .dropdown .sub-menu {
+      top: -2px;
+      left: 100% !important;
+      padding: 0;
+      border: none;
+      -webkit-animation: MenuFadeIn 0.4s;
+      -moz-animation: MenuFadeIn 0.4s;
+      -ms-animation: MenuFadeIn 0.4s;
+      -o-animation: MenuFadeIn 0.4s;
+      animation: MenuFadeIn 0.4s;
+    }
+    .dropdown-toggle::after {
+      display: none;
+    }
+  }
+}
+.active.slicknav_collapsed, .slicknav_parent.slicknav_open {
+  background: #eee;
+}
+ul li > ul {
+  padding: 0;
+  border-style: solid;
+  border-width: 4px 0 0 0;
+  border-radius: 0;
+  left: 0;
+  right: 0;
+  border-color: transparent;
+  > li {
+    > a {
+      color: #666;
+      padding: 10px 0 10px 15px;
+      margin: 5px 0;
+      &:hover, .active {
+        background: #ecf0f1;
+      }
+    }
+    &.active > a {
+      background: #ecf0f1;
+    }
+  }
+}
+.wpb-mobile-menu {
+  display: none;
+}
+@-webkit-keyframes MenuFadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes MenuFadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.top-nav-collapse {
+  background: #fff;
+  z-index: 999999;
+  box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  #main-menu ul > li > a {
+    padding: 17px 20px;
+  }
+}
+
+.active.slicknav_collapsed, .slicknav_parent.slicknav_open {
+  background: #eee;
+}
+
+.wpb-mobile-menu {
+  display: none;
+  ul li > ul {
+    padding: 0;
+    border-style: solid;
+    border-width: 4px 0 0 0;
+    border-radius: 0;
+    left: 0;
+    right: 0;
+    border-color: transparent;
+    > li {
+      > a {
+        color: #666;
+        padding: 10px 0 10px 15px;
+        &:hover, .active {
+          background: #ecf0f1;
+        }
+      }
+      &.active > a {
+        background: #ecf0f1;
+      }
+    }
+  }
+}
+
+.slicknav_menu {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    position: absolute;
+    top: 12px;
+  }
+  /* #menu is the original menu */
+  #wpb-mobile-menu {
+    display: none;
+  }
+  .slicknav_menu {
+    display: block;
+  }
+}
+
+/* SlickMenu responsive */
+@media screen and (max-width: 768px) {
+  .navbar-toggler {
+    display: none;
+  }
+}
+.top_search_con {
+  background: #fff;
+  height: 38px;
+  border-radius: 50px;
+  position: relative;
+  width: 100%;
+  input {
+    &[type="text"], &:focus {
+      background: none !important;
+      border: 1px solid #E4E4E4;
+      height: 100%;
+      width: 100%;
+      padding: 1px 20px 0 40px;
+      color: #818B8D;
+      font-size: 12px;
+      outline: none;
+      border-radius: 50px;
+      transition: all 0.4s ease-in-out;
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+    }
+  }
+}
+.top_search_icon {
+  color: #e64a4a;
+  font-size: 14px;
+  left: 15px;
+  position: absolute;
+  top: 7px;
+}
+.top_search .top_search_submit {
+  border: none;
+  padding: 0;
+  position: absolute;
+  width: 20px;
+  left: 12px;
+  opacity: 0;
+  top: 9px;
+}

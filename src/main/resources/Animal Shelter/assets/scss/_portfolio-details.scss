@@ -1,0 +1,24 @@
+/* Single portfolio */
+.single-portfolio-area .single-portfolio-image img {
+  width: 100%;
+}
+.portfolio-meta ul, .portfolio-controls ul {
+  list-style: outside none none;
+  padding-left: 0;
+}
+.portfolio-meta ul li {
+  margin: 10px 0;
+  span {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 130px;
+  }
+}
+.portfolio-controls ul li a.btn {
+  padding: 10px 75px;
+  i.fa {
+    font-size: 37px;
+  }
+}

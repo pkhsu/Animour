@@ -1,0 +1,44 @@
+.about-author-section {
+  border: 1px solid #eee;
+  .media {
+    padding: 20px;
+    .media-body {
+      padding-left: 10px;
+      p {
+        line-height: 28px;
+      }
+    }
+  }
+  .author-footer {
+    border-top: 1px solid #eee;
+    padding: 20px;
+  }
+}
+.similar-post {
+  img {
+    width: 100%;
+  }
+  h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 10px;
+  }
+}
+.similar-post {
+  img {
+    width: 100%;
+  }
+  h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 10px;
+  }
+}
+.no-pdl {
+  padding-left: 0 !important;
+}
+.wrapper{
+  padding-top: 80px;
+}

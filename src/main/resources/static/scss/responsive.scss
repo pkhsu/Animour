@@ -1,0 +1,1066 @@
+/*You can add your won color also */
+@media (min-width: 767px) and (max-width: 1024px) {
+  .section-title {
+    font-size: 40px;
+  }
+  .small-title {
+    font-size: 20px;
+  }
+  .social-links-bordered a i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .input-lg {
+    font-size: 14px;
+  }
+  .full-search input[type='text'] {
+    width: 96%;
+  }
+  #roof {
+    .quick-contacts span {
+      padding: 0 10px;
+    }
+    .social-links a {
+      margin: 0 2px;
+    }
+  }
+  .navbar-engage {
+    .navbar-nav > li > a, &.affix .navbar-nav > li > a, .navbar-nav > li > a:focus, &.affix .navbar-nav > li > a:focus {
+      font-size: 12px;
+      padding: 0;
+      margin: 20px 10px;
+    }
+    .navbar-brand img, &.affix .navbar-brand img {
+      width: 100px;
+    }
+    .dropdown-menu > li > a, &.affix .dropdown-menu > li > a {
+      font-size: 12px;
+    }
+    .navbar-nav > li > a:before {
+      bottom: 0;
+    }
+    &.affix {
+      .navbar-nav > li > a:before {
+        bottom: 0;
+      }
+      .navbar-brand {
+        padding: 15px;
+      }
+    }
+  }
+  .top-nav-collapse #main-menu ul > li > a{
+    padding: 17px 16px;
+  }
+  .top_search_con {
+    display: none;
+  }
+  #carousel-area {
+    .item {
+      height: 400px;
+      .carousel-caption {
+        h2 {
+          font-size: 50px;
+        }
+        h3 {
+          font-size: 20px;
+        }
+      }
+    }
+    .carousel-control i {
+      width: 40px;
+      height: 40px;
+      padding: 12px 0;
+      font-size: 15px;
+    }
+  }
+  #service-block-main .service-item {
+    margin: 20px 0;
+    h2 {
+      font-size: 18px;
+    }
+  }
+  #service-block-1 .service-item .service-content h2 {
+    font-size: 26px;
+  }
+  .split h2.title{
+    font-size: 18px;
+  }
+  #portfolio .portfolio-items {
+    .mix, .gap {
+      width: 50%;
+    }
+    figure figcaption {
+      padding: 32px;
+    }
+    &.col-3 {
+      .mix, .gap {
+        width: 50%;
+      }
+    }
+  }
+  #other-services .other-service-item .service-content h3 {
+    font-size: 18px;
+  }
+  #progress {
+    overflow-x: hidden;
+    .our-progress:before {
+      background: none;
+    }
+    .progress-bottom {
+      padding-bottom: 0;
+      padding-top: 0;
+    }
+    .progress-item {
+      margin: 30px 0;
+    }
+  }
+  #notice {
+    h4 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 20px;
+    }
+    .notice-button {
+      margin-top: 15px;
+    }
+  }
+  #cool-facts {
+    .fact-block {
+      margin: 30px 0;
+    }
+    .section-subtitle {
+      padding-bottom: 30px;
+      font-size: 24px;
+    }
+  }
+  #blog {
+    .blog-item-wrapper {
+      margin: 30px 0;
+    }
+    .blog-item-text .blog-item-info a {
+      padding-right: 6px;
+    }
+  }
+  #team .team-item {
+    margin: 30px 0;
+  }
+   #team .info h2{
+    font-size: 15px;
+  }
+  .pricing-table {
+    margin: 15px 0;
+    h3 {
+      font-size: 24px;
+    }
+  }
+  footer .footer-widget {
+    margin: 30px 0;
+  }
+  #service-block-2 .service-inner h3 {
+    font-size: 24px;
+  }
+  #why-choose {
+    h2, .tab-container h2 {
+      font-size: 24px;
+    }
+  }
+  .social-icons-fill li {
+    margin-right: 1px;
+  }
+  .massage-box .massage-box-icon {
+    height: 60px;
+  }
+  #tabs .tab-content h1 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .section-title {
+    font-size: 36px;
+  }
+  .page-header .page-subtitle {
+    font-size: 18px;
+  }
+  .navbar-header {
+    width: 100%;
+  }
+  .navbar-engage .dropdown .sub-menu {
+    top: 0;
+    left: 0 !important;
+    padding: 0;
+    border: none;
+    -webkit-animation: fadeInUpMenu 0.4s;
+    -moz-animation: fadeInUpMenu 0.4s;
+    -ms-animation: fadeInUpMenu 0.4s;
+    -o-animation: fadeInUpMenu 0.4s;
+    animation: fadeInUpMenu 0.4s;
+  }
+  #carousel-area {
+    padding-top: 64px;
+    .item {
+      height: 300px;
+      .carousel-caption {
+        h2 {
+          font-size: 30px;
+        }
+        h3 {
+          font-size: 18px;
+        }
+        .btn {
+          margin: 5px;
+        }
+      }
+    }
+    .carousel-control i {
+      width: 40px;
+      height: 40px;
+      padding: 12px 0;
+      font-size: 15px;
+    }
+    .carousel-indicators {
+      display: none;
+    }
+  }
+  #carousel-area .carousel-two p{
+    display: none;
+  }
+  #service-block-main .service-item {
+    margin: 60px 0;
+    h2 {
+      font-size: 18px;
+    }
+  }
+  #portfolio {
+    .portfolio-items {
+      .mix, .gap {
+        width: 50%;
+      }
+      .mix figure h4, .gap figure h4, .mix figure figcaption::after, .gap figure figcaption::after, .mix figure figcaption::before, .gap figure figcaption::before {
+        display: none;
+      }
+      figure figcaption {
+        padding: 10px;
+      }
+    }
+    .controls .btn {
+      margin: 5px 2px;
+    }
+    .portfolio-items {
+      &.col-3 {
+        .mix, .gap {
+          width: 50%;
+        }
+        .mix figure h4, .gap figure h4, .mix figure figcaption::after, .gap figure figcaption::after, .mix figure figcaption::before, .gap figure figcaption::before {
+          display: none;
+        }
+      }
+      figure figcaption {
+        padding: 25px;
+      }
+    }
+    .controls .btn {
+      margin: 5px 2px;
+    }
+  }
+  #progress {
+    overflow-x: hidden;
+    .our-progress:before {
+      background: none;
+    }
+    .progress-bottom {
+      padding-bottom: 0;
+      padding-top: 0;
+    }
+    .progress-item {
+      margin: 30px 0;
+    }
+  }
+  #testimonial {
+    #testimonial-carousel {
+      p {
+        font-size: 20px;
+      }
+      .carousel-control {
+        &.left {
+          left: 15px;
+        }
+        &.right {
+          right: 15px;
+        }
+      }
+    }
+    .item blockquote small span {
+      display: block;
+      line-height: 40px;
+    }
+  }
+  #blog .blog-item-wrapper {
+    margin: 15px 0;
+  }
+  #clients #clients-scroller img {
+    width: 80%;
+    margin-left: 34px;
+  }
+  #team .team-item {
+    margin: 30px 0;
+  }
+  .pricing-table {
+    margin: 15px 0;
+    h3 {
+      font-size: 24px;
+    }
+  }
+  #tabs .nav-tabs li a {
+    font-size: 12px;
+    padding: 10px 12px;
+  }
+  #why-choose {
+    .tab-container h2 {
+      font-size: 26px;
+    }
+    .tab-menu .list-group {
+      width: 536px;
+      margin: 40px 8px;
+      float: left;
+      > a {
+        float: left;
+        margin: 0px 8px;
+      }
+    }
+  }
+  .page-header-content h2 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .section-title {
+    font-size: 26px;
+    line-height: 45px;
+    &:before {
+      display: none;
+    }
+  }
+  .section-subcontent{
+    padding-bottom: 0;
+  }
+  #carousel-area .carousel-two p{
+    display: none;
+  }
+  .small-title {
+    font-size: 25px;
+  }
+  #portfolios .btn {
+    padding: 6px 13px;
+    margin-bottom: 5px;
+  }
+  .social-links-bordered a i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .navbar-header {
+    width: 100%;
+  }
+  .page-header {
+    .page-title {
+      font-size: 20px;
+    }
+    .page-subtitle {
+      font-size: 18px;
+    }
+  }
+  .input-lg {
+    font-size: 14px;
+  }
+  #roof {
+    .quick-contacts span {
+      padding: 0 10px;
+    }
+    .social-links a {
+      margin: 0 2px;
+    }
+  }
+  .justify-content-end {
+    justify-content: flex-start !important;
+  }
+  #carousel-area {
+    padding-top: 64px;
+    .item {
+      height: 300px;
+      .carousel-caption {
+        h2 {
+          font-size: 30px;
+        }
+        h3 {
+          font-size: 20px;
+        }
+        .btn {
+          margin: 5px;
+        }
+      }
+    }
+    .carousel-control i {
+      width: 40px;
+      height: 40px;
+      padding: 12px 0;
+      font-size: 15px;
+    }
+    .carousel-indicators {
+      display: none;
+    }
+  }
+  #service-block-main .service-item {
+    margin: 20px 0;
+    h2 {
+      font-size: 18px;
+    }
+  }
+  #service-block-1 .service-item .service-content h2 {
+    font-size: 22px;
+  }
+  #portfolio {
+    .portfolio-items {
+      .mix, .gap {
+        width: 100%;
+      }
+      .mix figure h4, .gap figure h4, .mix figure figcaption::after, .gap figure figcaption::after, .mix figure figcaption::before, .gap figure figcaption::before {
+        display: none;
+      }
+      figure figcaption {
+        padding: 36px;
+      }
+    }
+    .controls .btn {
+      margin: 5px 2px;
+    }
+    .portfolio-items {
+      &.col-3 {
+        .mix, .gap {
+          width: 100%;
+        }
+        .mix figure h4, .gap figure h4, .mix figure figcaption::after, .gap figure figcaption::after, .mix figure figcaption::before, .gap figure figcaption::before {
+          display: none;
+        }
+      }
+      figure figcaption {
+        padding: 25px;
+      }
+    }
+    .controls .btn {
+      margin: 5px 2px;
+    }
+  }
+  #other-services .other-service-item .service-content h3 {
+    font-size: 15px;
+  }
+  #progress {
+    overflow-x: hidden;
+    .our-progress:before {
+      background: none;
+    }
+    .progress-bottom {
+      padding-bottom: 0;
+      padding-top: 0;
+    }
+    .progress-item {
+      margin: 30px 0;
+    }
+  }
+  #notice {
+    h4 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 16px;
+    }
+    .notice-button {
+      margin-top: 15px;
+    }
+  }
+  #cool-facts {
+    .fact-block {
+      margin: 30px 0;
+    }
+    .section-subtitle {
+      padding-bottom: 30px;
+      font-size: 24px;
+    }
+    .wrapper h2 {
+      font-size: 20px;
+    }
+  }
+  #testimonial {
+    #testimonial-carousel {
+      p {
+        font-size: 20px;
+      }
+      .carousel-control {
+        &.left {
+          left: 15px;
+        }
+        &.right {
+          right: 15px;
+        }
+      }
+    }
+    .item blockquote small span {
+      display: block;
+      line-height: 40px;
+    }
+  }
+  #cool-facts .fact-block h4 {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  #blog {
+    .blog-item-wrapper {
+      margin: 15px 0;
+    }
+    .blog-item-text .blog-item-info a {
+      padding-right: 6px;
+    }
+  }
+  .blog-post-title{
+      font-size: 20px;
+  }
+  .blog-post-footer ul.post-meta{
+    display: none;
+  }
+  #clients #clients-scroller {
+    .client-item-wrapper {
+      text-align: center;
+    }
+    .owl-controls {
+      display: none;
+    }
+  }
+  .pricing-table {
+    margin: 15px 0;
+    h3 {
+      font-size: 24px;
+    }
+  }
+  #team .team-item,{
+    margin: 20px 0;
+  }
+  .copyright-text {
+    float: left !important;
+  }
+  .social-icons-fill li {
+    margin: 0px 16px 0 0;
+  }
+  #why-choose {
+    .tab-container h2 {
+      font-size: 28px;
+    }
+    .list-group-item {
+      width: 362%;
+      margin: 40px 15px;
+    }
+  }
+  .navbar-nav .nav-item + .nav-item {
+    margin-left: 0;
+  }
+  #main-menu {
+    clear: both;
+  }
+  .page-header-content h2 {
+    text-align: center;
+  }
+  .social-footer{
+    text-align: left!important;
+  }
+}
+
+/* mobile or only mobile */
+@media (max-width: 767px) {
+  .carousel-item > img {
+    height: 100%;
+    width: 100%;
+  }
+  #carousel-area {
+    .carousel-item {
+      height: 200px;
+      .carousel-caption {
+        h2 {
+          font-size: 16px;
+        }
+        h3 {
+          font-size: 12px;
+        }
+        .btn {
+          margin: auto;
+          font-size: 9px;
+          margin-top: 5px;
+          padding: 8px 12px;
+        }
+      }
+    }
+    padding-top: 64px;
+    .carousel-control {
+      top: 58%;
+      display: none;
+    }
+    &:hover .carousel-control {
+      display: block;
+    }
+    .carousel-indicators {
+      bottom: -8px;
+    }
+    i {
+      margin-right: 0;
+    }
+    .carousel-item .carousel-caption {
+      top: 14%;
+    }
+  }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #main-menu ul {
+    > li > a {
+      font-size: 13px;
+      font-weight: 400;
+      padding: 28px 10px;
+    }
+    .dropdown .dropdown-menu a {
+      border-top: 1px solid #e2e6e7;
+      color: #666;
+      display: block;
+      font-size: 12px;
+      font-weight: 400;
+      height: auto;
+      line-height: 16px;
+      padding: 9px 19px 7px;
+      transition: all 0.3s ease-in-out 0s;
+    }
+  }
+  #carousel-area {
+    .carousel-item .carousel-caption {
+      h2 {
+        font-size: 50px;
+      }
+      h3 {
+        font-size: 20px;
+      }
+    }
+    img {
+      height: 100%;
+    }
+  }
+  .service-item h2 {
+    font-size: 15px !important;
+  }
+  .top_search {
+    display: none;
+  }
+  .pricing-table-x .plan-info p {
+    font-size: 12px;
+  }
+  #team .team-item {
+    figure figcaption .content-white {
+      font-size: 9px;
+      line-height: 12px;
+      width: 60%;
+    }
+    .social {
+      .facebook, .twitter, .google-plus {
+        font-size: 8px;
+        height: 25px;
+        line-height: 25px;
+        width: 25px;
+      }
+    }
+  }
+  .section-title {
+    font-size: 24px !important;
+  }
+  .footer-widget p {
+    font-size: 12px;
+  }
+  .social-footer a .fa {
+    height: 25px;
+    line-height: 25px;
+    width: 25px;
+  }
+  footer {
+    .plain-flicker-gallery a {
+      width: 31%;
+    }
+    ul li.tweet {
+      font-size: 12px !important;
+    }
+  }
+  #copyright {
+    p, a {
+      font-size: 10px !important;
+    }
+  }
+  .single-pricing-2 {
+    .btn {
+      padding: 10px 15px;
+      font-size: 10px;
+    }
+    .plan-price {
+      font-size: 35px;
+    }
+    ul li {
+      font-size: 12px;
+    }
+  }
+  ul.nav-tabs li a {
+    font-size: 11px;
+  }
+  .btn-lg {
+    padding: 12px 20px;
+  }
+  .btn-md {
+    padding: 12px 14px;
+  }
+  .pricing-table h3 {
+    font-size: 20px !important;
+  }
+  .single-pricing-2 .plan-name {
+    font-size: 18px;
+  }
+  .sup-desc-wrap .sup-meta-wrap .sup-description {
+    display: none;
+  }
+  .portfolio-meta ul li {
+    span {
+      font-size: 10px;
+      width: 78px;
+    }
+    font-size: 10px;
+  }
+  span.published-time {
+    font-size: 10px;
+  }
+  .widget.popular-post h4 {
+    font-size: 12px;
+  }
+  .flickr-widget .plain-flicker-gallery a img {
+    width: 31%;
+  }
+  .widget.tag-cloud a {
+    font-size: 8px;
+  }
+  .panel-default .panel-heading a{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-inline .nav-item + .nav-item {
+    margin-left: 0;
+    float: none;
+  }
+  #main-menu {
+    ul .dropdown .dropdown-menu {
+      display: block;
+      position: relative;
+      width: 100%;
+    }
+    clear: both;
+    width: 100%;
+  }
+  nav.navbar.navbar-light {
+    min-height: 73px;
+    button.navbar-toggler {
+      background: #333 none repeat scroll 0 0;
+      border-radius: 0 !important;
+      margin-top: 17px;
+    }
+    ul.nav-inline {
+      .nav-item {
+        display: block;
+      }
+      max-height: 350px;
+      overflow-x: scroll;
+      margin-top: 20px;
+    }
+  }
+  #roof {
+    display: none;
+  }
+  #main-menu ul > li > a {
+    font-size: 12px !important;
+    padding: 18px 10px;
+  }
+  .page-header-content h2 {
+    text-align: center;
+  }
+  .footer-widget {
+    margin-bottom: 30px;
+  }
+  .carousel-item > img {
+    height: 100% !important;
+  }
+  #carousel-area .carousel-item .carousel-caption {
+      h2 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+    h3 {
+      font-size: 16px;
+    }
+  }
+  .btn-lg {
+    font-size: 10px;
+    padding: 10px 16px;
+    text-transform: uppercase;
+  }
+  .section-title {
+    font-size: 18px;
+  }
+  .section-subcontent {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  #portfolio a.filter {
+    font-size: 10px;
+    margin: 5px;
+    padding: 5px 11px;
+  }
+  .controls {
+    padding: 0;
+  }
+  .pricing-table-x .table-header h3 {
+    font-size: 18px;
+  }
+  .plan-info > p {
+    font-size: 12px !important;
+  }
+  .pricing-table-x {
+    .button-area {
+      padding: 14px 0 40px;
+    }
+  }
+  .service2-single-service {
+    .fa {
+      font-size: 18px;
+      height: 45px;
+      line-height: 45px;
+      width: 45px;
+    }
+    h2 {
+      font-size: 15px;
+    }
+    p {
+      font-size: 11px;
+    }
+  }
+  .images {
+    text-align: center;
+  }
+  .split h2.title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #other-services .service-content p {
+    &.lead {
+      font-size: 12px;
+      line-height: 28px;
+      margin-bottom: 7px;
+    }
+    font-size: 12px;
+  }
+  .about2-intro-image {
+    margin-bottom: 10px;
+  }
+  #default-tab li.nav-item a.nav-link {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .single-testimonial-area {
+    h3 {
+      font-size: 18px;
+      line-height: 25px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+  .section {
+    padding: 15px 15px;
+  }
+  .page-header-area {
+    height: 86px;
+  }
+  .page-header-content h2 {
+    font-size: 28px;
+  }
+  .cta-content {
+    h2 {
+      font-size: 20px;
+      line-height: 32px;
+    }
+    p {
+      font-size: 12px;
+      line-height: 18px;
+      padding-top: 5px;
+    }
+    .btn {
+      font-size: 12px;
+      margin-top: 0;
+      padding: 7px 12px;
+    }
+  }
+  #google-map-contact {
+    height: 200px;
+    padding: 0;
+  }
+  .section-padding {
+    padding: 60px 0;
+  }
+  .contact-title-text {
+    h2 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  .contact-widget {
+    h2 {
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+    address {
+      line-height: 35px;
+      font-size: 12px;
+    }
+  }
+  .error-section {
+    h1 {
+      font-size: 4rem;
+    }
+    h4 {
+      font-size: 16px;
+    }
+  }
+  #round-tab ul li a {
+    font-size: 12px;
+    padding: 6px !important;
+  }
+  #vertical-tab {
+    .nav-tabs, .tab-content {
+      vertical-align: top;
+      display: inherit;
+    }
+    ul.nav-tabs {
+      li a {
+        font-size: 12px;
+        padding: 12px 40px;
+      }
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 23px !important;
+    }
+  }
+  .shortcode-buttons-area .col-md-3, .shortcode-pie-skill-area .col-md-6 {
+    margin: 30px 0;
+  }
+  .single-portfolio-area .small-title {
+    margin-top: 30px;
+  }
+  .portfolio-controls ul li a.btn {
+    padding: 5px 30px;
+  }
+  .featured-wrapper img {
+    height: 200px;
+  }
+  .blog-post-footer {
+    ul li a {
+      padding: 4px 12px;
+    }
+    a.btn {
+      margin-top: 10px;
+    }
+  }
+  iframe {
+    height: 200px !important;
+  }
+  ul.pagination a.page-link {
+    font-size: 10px;
+    padding: 7px;
+  }
+  .search-bar {
+    margin-top: 40px;
+  }
+  .sidebar-area .widget {
+    margin-bottom: 30px;
+  }
+  .about-author-section {
+    .media-left {
+      display: block !important;
+      text-align: center;
+    }
+    .media .media-body {
+      padding-left: 10px;
+      text-align: center;
+      padding-top: 20px;
+    }
+  }
+  .author-footer .fa {
+    font-size: 18px !important;
+    height: 35px !important;
+    line-height: 35px !important;
+    width: 35px !important;
+  }
+  .comments-area {
+    .media-left, .media-right {
+      display: block;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+  }
+  .comment-author {
+    margin: 10px 0;
+  }
+  .commentor-info > p {
+    font-size: 13px;
+    line-height: 23px;
+  }
+  .images img {
+    width: 100%;
+  }
+  .panel-default .panel-heading a{
+    font-size: 15px;
+  }
+}
+
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel-item > img {
+    width: 100%;
+  }
+  #carousel-area {
+    .carousel-item .carousel-caption {
+      h2 {
+        font-size: 28px;
+      }
+      h3 {
+        font-size: 16px;
+      }
+      .btn {
+        margin: auto;
+        font-size: 12px;
+        margin-top: 10px;
+        padding: 10px 15px;
+      }
+      top: 25%;
+    }
+    .carousel-indicators {
+      bottom: 25px;
+    }
+  }
+}

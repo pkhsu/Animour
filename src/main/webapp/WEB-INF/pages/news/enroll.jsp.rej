@@ -1,0 +1,20 @@
+diff a/src/main/webapp/WEB-INF/pages/news/enroll.jsp b/src/main/webapp/WEB-INF/pages/news/enroll.jsp	(rejected hunks)
+@@ -145,7 +145,17 @@
+ 	<script src="/js/jquery.appear.js"></script>
+ 	<script src="/js/form-validator.min.js"></script>
+ 	<script src="/js/contact-form-script.min.js"></script>
+-	<script src="/js/main.js"></script>
++	<script src="/js/main.js"></script>	
++<!-- Facebook Login JavaScript SDK-->
++Step 1: Include the JavaScript SDK on your page once, ideally right after the opening body tag.
++<div id="fb-root"></div>
++<script>(function(d, s, id) {
++  var js, fjs = d.getElementsByTagName(s)[0];
++  if (d.getElementById(id)) return;
++  js = d.createElement(s); js.id = id;
++  js.src = 'https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.12';
++  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
++<!-- Facebook Login JavaScript SDK -->
+ 	
+ 
+ </body>
