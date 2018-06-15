@@ -26,5 +26,3 @@ Member
 ```sh
 $ git clone https://github.com/pkhsu/Animour.git
 ```
-## License
-MIT
