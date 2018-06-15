@@ -117,8 +117,6 @@
 					$(document).ready(function () {
 						//alert("alert from noti")
 							var acc=$('#data-role').attr('name');
-// 								console.log("acc:"+acc)						
-						// onload 時先去讀取資料庫的未讀通知，新增元素顯示
 						$.ajax({
 							type: "GET",
 							url: "/api/member/all/findonline",

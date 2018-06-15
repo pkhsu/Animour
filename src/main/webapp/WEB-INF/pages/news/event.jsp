@@ -212,7 +212,7 @@
             <!--Facebook Url-->
               	<div 
               		class="fb-share-button" 
-              		data-href="http://localhost:8080/news/event" 
+              		data-href="/news/event" 
               		data-layout="button" 
               		data-size="large" 
               		data-mobile-iframe="true">

@@ -4,7 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<style>body{font-family:'微軟正黑體'}</style>		
+<style>
+body {
+	font-family: '微軟正黑體'
+}
+</style>
 </head>
 <body>
 
@@ -114,7 +118,193 @@
 		</div>
 	</div>
 	<!-- Copyright  End--> </footer>
+	
+	<script src="/webjars/sockjs-client/sockjs.min.js"></script>
+	<script src="/webjars/stomp-websocket/stomp.min.js"></script>
+	<script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>					
 
+				<script>
 
+					$(document).ready(function () {
+						//alert("alert from noti")
+						function cc(){
+							
+							$('#online').empty();
+							var d =`<a  class="dropdown-item" style="background-color:#9c3;color:#ffffff">`  +`在線上` + `</a>`;
+							$('#online').append(d);
+							var acc=$('#data-role').attr('name');
+							
+						$.ajax({
+							type: "GET",
+							url: "/api/member/all/findonline",
+							}).done(function (data) {
+							$.each(data, function (idx, list) {
+							if(list!=acc){
+								var c=`<a id=` + list + ` class="dropdown-item" href="/user/` + list + `">` +  list +`在線上` + `</a>`;
+								$('#online').append(c);
+
+							}//不顯示自己
+							});
+							
+						});//end do
+						setTimeout(function() {
+							cc();
+						},
+						5000);
+						}//end cc
+						cc();	
+					});
+
+				</script>	
+	<script>
+					var stompClient = null;
+
+					function setConnected(connected) {
+						$("#connect").prop("disabled", connected);
+						$("#disconnect").prop("disabled", !connected);
+						if (connected) {
+							$("#conversation").show();
+						} else {
+							$("#conversation").hide();
+						}
+						$("#greetings").html("");
+					}
+
+					function connect() {
+						
+						var socket = new SockJS('/chatTest');
+						stompClient = Stomp.over(socket);
+						stompClient.connect({}, function (frame) {
+							setConnected(true);
+							console.log('Connected: ' + frame);
+							// subscribe 改成
+							stompClient.subscribe("/user/queue/notifications", function (
+								message) {
+								//alert("from noti")
+								showGreeting(JSON.parse(message.body));
+								showCount(JSON.parse(message.body).count);
+							});
+							// 兩種訂閱寫在一起，用一個連線，一個 endpoint
+							stompClient.subscribe("/user/queue/chat/ryu", function (
+								chat) {
+								//alert("from chat")
+								showChat(JSON.parse(chat.body));
+								//showChat(chat.body);
+								$("#chatBox").css("display", "")
+							});
+
+							stompClient.subscribe("/user/queue/chat/BenQ", function (
+								chat) {
+								//alert("from chat")
+								showChat(JSON.parse(chat.body));
+								//showChat(chat.body);
+								$("#chatBox").css("display", "")
+							});
+
+							stompClient.subscribe("/user/queue/chat", function (
+								chat) {
+								//alert("from chat")
+								showChat(JSON.parse(chat.body));
+								//showChat(chat.body);
+								$("#chatBox").css("display", "")
+							});
+						});
+					}
+
+					function disconnect() {
+						if (stompClient !== null) {
+							stompClient.disconnect();
+						}
+						setConnected(false);
+						console.log("Disconnected");
+					}
+
+					// 發送訊息，這邊用不到
+					// function sendText() {
+					// 	stompClient.send("/app/chat", {}, $("#name").val());
+					// 	//alert("alert from noti")
+					// 	$("#greetings").append(
+					// 		"<tr><td style='color:blue'>" + $("#name").val()
+					// 		+ "</td></tr>");
+					// }
+
+					// 接收socket來的訊息，新增元素顯示，型別為JSON物件
+					function showGreeting(notice) {
+						if ($('#nonitice').length != 0) {
+							$("#nonitice").remove();
+						}
+
+						var fromMember;
+						if (!notice.fromWho){
+							fromMember = "";
+						} else {
+							fromMember = notice.fromWho.account;
+						}
+						var template = `<a id=` + notice.id + ` class="dropdown-item" href="` + notice.href + `">` + fromMember + notice.detail + `</a>`;
+						$("#notification").append(template);
+
+						bindNotice();
+					}
+
+					function showCount(count) {
+						$("#dropdownMenuLink").append(`<span id="count" class="badge"
+				style="background: #cc0000; color: #ffffff; font-weight: bold; border-radius: 9px; -moz-border-radius: 9px; -webkit-border-radius: 9px; position: absolute; margin-top: 5%; margin-left: -15%; font-size: 11px;">`+ count + `</span>`);
+					}
+
+					$(function () {
+// 						$("form").on('submit', function (e) {
+// 							e.preventDefault();
+// 						});
+						/* $("#connect").click(function () {
+							connect();
+						}); */
+						/* 	$("#disconnect").click(function () {
+								disconnect();
+							}); */
+						/* $("#send").click(function () {
+							sendText();
+						}); */
+					});
+
+					// 綁定click事件，設定為已讀
+					function bindNotice(){
+						$(".dropdown-item").click(function () {
+							//alert($(this).attr('id'));
+							$.ajax({
+								type: "GET",
+								url: "/api/member/all/setread/"+$(this).attr('id'),
+								//contentType: "application/json",
+								//processData: false
+							}).done(function(){
+								$(this).remove();
+							})
+						});
+					}
+
+					$(document).ready(function () {
+						connect();
+						//alert("alert from noti")
+
+						// onload 時先去讀取資料庫的未讀通知，新增元素顯示
+						$.ajax({
+							type: "GET",
+							url: "/api/member/all/loadnotice",
+							//contentType: "application/json",
+							//processData: false
+						}).done(function (datas) {
+							$.each(datas.data, function (idx, notice) {
+								showGreeting(notice);
+							});
+							if (datas.parameters.count > 0) {
+								showCount(datas.parameters.count);
+							} else {
+								var template = `<a class="dropdown-item" id="nonitice">目前沒有未讀通知</a>`
+								$("#notification").append(template);
+							}
+							//bindNotice();
+						});
+					});
+
+				</script>
 </body>
 </html>

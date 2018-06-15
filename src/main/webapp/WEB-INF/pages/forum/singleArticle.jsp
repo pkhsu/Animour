@@ -143,7 +143,7 @@
                       <div class="blog-post clearfix">
                         <p>${article.content}</p>
                       </div>
-                      <a href="http://localhost:8080/updateArticle?id=${article.id}">
+                      <a href="/updateArticle?id=${article.id}">
                         <button id="btn2" class="btn btn-common" style="float:right">編輯</button>
                       </a>
                       <div id="articleId" style="display:none">${article.id}</div>

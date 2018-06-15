@@ -121,8 +121,8 @@
 						<div class="col-md-4">
 							<div class="card mb-4 box-shadow">
 <!-- 							src="../images/adopt/cats/英短毛專題用圖.jpeg" -->
-								<img id="picture${avar.id}" class="card-img-top"  width="20px" alt="待預約小貓">
-								<div class="card-body" style="margin-bottom: 5px" id="bbb${avar.id}">
+								<img id="picture${avar.id}" class="card-img-top"  width="20px" alt="待預約小貓" style="border:1px solid gray;">
+								<div class="card-body" style="margin-bottom: 5px;border:1px solid gray;" id="bbb${avar.id}">
 									<p class="card-text" style="padding: 0px">服務：${avar.content}<p id="aaa${avar.id}"><br></p>
 									<div class="d-flex justify-content-between align-items-center" style="max-height: 20px">
 										<div class="btn-group" style="margin: 0px">
@@ -263,7 +263,7 @@
 
 			<script>
 				$('#picture9').attr({'src':'../images/adopt/cats/英短毛專題用圖.jpeg'});
-				$('#picture8').attr({'src':'../images/reservation/serviceContent/poodeldog.jpg'});
+				$('#picture8').attr({'src':'../images/reservation/serviceContent/狗狗洗澡2.jpg'});
 				
 				$('#picture7').attr({'src':'../images/reservation/serviceContent/狗狗特殊造型2.jpg'});
 			 $('#aaa9').append('服務人員立即過來服務。她拿剪刀剪我們雜亂的毛，於是我們就像各點一杯冰淇淋解熱過癮。'+

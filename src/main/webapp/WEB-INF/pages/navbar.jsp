@@ -135,10 +135,42 @@
 				<!-- 設定通知區塊 -->
 				<sec:authorize access="hasRole('Member')">
 					<!-- 會員可讀 -->
-					<li class="nav-item dropdown"><jsp:include
-							page="member/notification.jsp"></jsp:include></li>
-					<li class="nav-item dropdown"><jsp:include
-							page="member/onlinelist.jsp"></jsp:include></li>
+					<li class="nav-item dropdown">
+					<div class="btn-group">
+
+					<div class="dropdown show">
+						<a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i title="通知" class="fa fa-globe" style="color: #9C3; font-size: 30px"></i>
+							<span id="count" class="badge" style="background: #cc0000; color: #ffffff; font-weight: bold; border-radius: 9px; -moz-border-radius: 9px; -webkit-border-radius: 9px; position: absolute; margin-top: 5%; margin-left: -15%; font-size: 11px;"></span>
+						</a>
+
+						<div id="notification" class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+
+							<a class="dropdown-item" style="background-color: #9C3; color: #ffffff">通知</a>
+							<!--<div class="dropdown-divider" style="background-color: #9C3"></div>-->
+
+						</div>
+					</div>
+
+				</div>
+					</li>
+					<li class="nav-item dropdown">
+					<div class="btn-group">
+
+					<div class="dropdown show" id="data-role" name='<sec:authentication property="principal.username" />' >
+						<a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i title="線上" class="fa fa-user" style="color: #9C3; font-size: 30px"></i>
+							<span id="count" class="badge" style="background: #cc0000; color: #ffffff; font-weight: bold; border-radius: 9px; -moz-border-radius: 9px; -webkit-border-radius: 9px; position: absolute; margin-top: 5%; margin-left: -15%; font-size: 11px;"></span>
+						</a>
+
+						<div id="online" class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+
+							<a class="dropdown-item" style="background-color: #9C3; color: #ffffff">線上</a>
+
+						</div>
+					</div>
+
+				</div></li>
 
 				</sec:authorize>
 				<!-- 設定私訊對話框 -->
@@ -257,6 +289,12 @@
 			<!-- Mobile Menu End -->
 		</div>
 	</nav>
+	
+	
+			
+	
+	
+	
 </body>
 
 </html>

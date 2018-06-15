@@ -212,7 +212,7 @@
 							processData: false,
 							//     		    dataType: "json",
 							success: function () {
-								window.location.href = 'http://localhost:8080/forum/findAll';
+								window.location = '/forum/findAll';
 							}
 						});
 					});

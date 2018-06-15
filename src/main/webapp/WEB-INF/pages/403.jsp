@@ -75,7 +75,7 @@
           <div class="col-md-12 text-center">
             <h1>403</h1>
             <h4>拒絕存取：權限不足</h4>
-            <a href="/index" class="mt-30 btn btn-outline btn-lg"><i class="fa fa-home"></i> 回首頁</a>
+            <a href="/" class="mt-30 btn btn-outline btn-lg"><i class="fa fa-home"></i> 回首頁</a>
           </div>
         </div>
       </div>
