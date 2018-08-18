@@ -1,7 +1,7 @@
 package allPay.payment.integration.domain;
 
 /**
- * ·|­û¥Ó½Ð¼·´Ú/°h´Úª«¥ó
+ * ï¿½|ï¿½ï¿½ï¿½Ó½Ð¼ï¿½ï¿½ï¿½/ï¿½hï¿½Úªï¿½ï¿½ï¿½
  * @author mark.chiu
  *
  */
@@ -9,185 +9,185 @@ public class CaptureObj {
 	
 	/**
 	 * MerchantID
-	 * ·|­û½s¸¹(¥ÑallPay´£¨Ñ)
+	 * ï¿½|ï¿½ï¿½ï¿½sï¿½ï¿½(ï¿½ï¿½allPayï¿½ï¿½ï¿½ï¿½)
 	 */
 	private String MerchantID = "";
 	
 	/**
 	 * MerchantTradeNo
-	 * ·|­û¥æ©ö½s¸¹
+	 * ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½
 	 */
 	private String MerchantTradeNo = "";
 	
 	/**
 	 * CaptureAMT
-	 * ·|­û¥Ó½Ð¼·´Úª÷ÃB
+	 * ï¿½|ï¿½ï¿½ï¿½Ó½Ð¼ï¿½ï¿½Úªï¿½ï¿½B
 	 */
 	private String CaptureAMT = "";
 	
 	/**
 	 * UserRefundAMT
-	 * ­n°h´Úµ¹¶R¤èªºª÷ÃB
+	 * ï¿½nï¿½hï¿½Úµï¿½ï¿½Rï¿½èªºï¿½ï¿½ï¿½B
 	 */
 	private String UserRefundAMT = "";
 	
 	/**
 	 * PlatformID
-	 * ¯S¬ù¦X§@¥­¥x°Ó¥N¸¹(¥ÑallPay´£¨Ñ)
+	 * ï¿½Sï¿½ï¿½ï¿½Xï¿½@ï¿½ï¿½ï¿½xï¿½Ó¥Nï¿½ï¿½(ï¿½ï¿½allPayï¿½ï¿½ï¿½ï¿½)
 	 */
 	private String PlatformID = "";
 	
 	/**
 	 * UpdatePlatformChargeFee
-	 * ¬O§_§ó§ï¯S¬ù¦X§@¥­¥x°Ó¤âÄò¶O
+	 * ï¿½Oï¿½_ï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Xï¿½@ï¿½ï¿½ï¿½xï¿½Ó¤ï¿½ï¿½ï¿½O
 	 */
 	private String UpdatePlatformChargeFee = "";
 	
 	/**
 	 * PlatformChargeFee
-	 * ¯S¬ù¦X§@¥­¥x°Ó¤âÄò¶O
+	 * ï¿½Sï¿½ï¿½ï¿½Xï¿½@ï¿½ï¿½ï¿½xï¿½Ó¤ï¿½ï¿½ï¿½O
 	 */
 	private String PlatformChargeFee = "";
 	
 	/**
 	 * Remark
-	 * ³Æµù
+	 * ï¿½Æµï¿½
 	 */
 	private String Remark = "";
 	
 	/********************* getters and setters *********************/
 	
 	/**
-	 * ¨ú±oMerchantID ·|­û½s¸¹(¥ÑO'Pay´£¨Ñ)¡A·í¦¹¥­¥x¬°¯S¬ù¦X§@¥­¥x±ý«Ø¥ß­q³æ®É¡A¸ÓÄæ¦ì¤~¦³®Ä¡C¤@¯ë¥­¥x°Ó½Ð©¿²¤¦¹Äæ¦ì
+	 * ï¿½ï¿½ï¿½oMerchantID ï¿½|ï¿½ï¿½ï¿½sï¿½ï¿½(ï¿½ï¿½O'Payï¿½ï¿½ï¿½ï¿½)ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Xï¿½@ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Ø¥ß­qï¿½ï¿½É¡Aï¿½ï¿½ï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Ä¡Cï¿½@ï¿½ë¥­ï¿½xï¿½Ó½Ð©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 * @return MerchantID
 	 */
 	public String getMerchantID() {
 		return MerchantID;
 	}
 	/**
-	 * ³]©wMerchantID ·|­û½s¸¹(¥ÑO'Pay´£¨Ñ)¡A·í¦¹¥­¥x¬°¯S¬ù¦X§@¥­¥x±ý«Ø¥ß­q³æ®É¡A¸ÓÄæ¦ì¤~¦³®Ä¡C¤@¯ë¥­¥x°Ó½Ð©¿²¤¦¹Äæ¦ì
+	 * ï¿½]ï¿½wMerchantID ï¿½|ï¿½ï¿½ï¿½sï¿½ï¿½(ï¿½ï¿½O'Payï¿½ï¿½ï¿½ï¿½)ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Xï¿½@ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Ø¥ß­qï¿½ï¿½É¡Aï¿½ï¿½ï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Ä¡Cï¿½@ï¿½ë¥­ï¿½xï¿½Ó½Ð©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 * @param merchantID
 	 */
 	public void setMerchantID(String merchantID) {
 		MerchantID = merchantID;
 	}
 	/**
-	 * ¨ú±oMerchantTradeNo ·|­û¥æ©ö½s¸¹¡A­q³æ²£¥Í®É¶Ç°eµ¹O¡¦Payªº·|­û¥æ©ö½s¸¹¡C
+	 * ï¿½ï¿½ï¿½oMerchantTradeNo ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Aï¿½qï¿½æ²£ï¿½Í®É¶Ç°eï¿½ï¿½Oï¿½ï¿½Payï¿½ï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½C
 	 * @return MerchantTradeNo
 	 */
 	public String getMerchantTradeNo() {
 		return MerchantTradeNo;
 	}
 	/**
-	 * ³]©wMerchantTradeNo ·|­û¥æ©ö½s¸¹¡A­q³æ²£¥Í®É¶Ç°eµ¹O¡¦Payªº·|­û¥æ©ö½s¸¹¡C
+	 * ï¿½]ï¿½wMerchantTradeNo ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Aï¿½qï¿½æ²£ï¿½Í®É¶Ç°eï¿½ï¿½Oï¿½ï¿½Payï¿½ï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½C
 	 * @param merchantTradeNo
 	 */
 	public void setMerchantTradeNo(String merchantTradeNo) {
 		MerchantTradeNo = merchantTradeNo;
 	}
 	/**
-	 * ¨ú±oCaptureAMT ·|­û¥Ó½Ð¼·´Úª÷ÃB
+	 * ï¿½ï¿½ï¿½oCaptureAMT ï¿½|ï¿½ï¿½ï¿½Ó½Ð¼ï¿½ï¿½Úªï¿½ï¿½B
 	 * @return CaptureAMT
 	 */
 	public String getCaptureAMT() {
 		return CaptureAMT;
 	}
 	/**
-	 * ³]©wCaptureAMT ·|­û¥Ó½Ð¼·´Úª÷ÃB
+	 * ï¿½]ï¿½wCaptureAMT ï¿½|ï¿½ï¿½ï¿½Ó½Ð¼ï¿½ï¿½Úªï¿½ï¿½B
 	 * @param captureAMT
 	 */
 	public void setCaptureAMT(String captureAMT) {
 		CaptureAMT = captureAMT;
 	}
 	/**
-	 * ¨ú±oUserRefundAMT ­n°h´Úµ¹¶R¤èªºª÷ÃB¡A­Y¤£»Ý­n³B²z°h´Úµ¹¶R¤è¡A½Ð±a0¡A
-	 * ¡u­q³æ¥æ©öª÷ÃB¡v¦©°£¡u¥²­n¤âÄò¶O¡v«á¡A¼·´Úµ¹¥­¥x·|­û¡C
-	 *  ª`·N¨Æ¶µ¡G
-	 *   ¡°­Y»Ý­n³B²z¥þÃB©Î³¡¥÷°h´Úµ¹¶R¤è®É¡A½Ð±a¦¹°Ñ¼Æ¡C¦³®Ä½d³ò¬°0¡ã­q³æ¥æ©öª÷ÃB¡C 
-	 *   ¡°·|­û¥Ó½Ð¼·´Úª÷ÃB[CaptureAMT] +­n°h´Úµ¹¶R¤èªºª÷ÃB[UserRefundAMT] = ­q³æ¥æ©öª÷ÃB¡C
+	 * ï¿½ï¿½ï¿½oUserRefundAMT ï¿½nï¿½hï¿½Úµï¿½ï¿½Rï¿½èªºï¿½ï¿½ï¿½Bï¿½Aï¿½Yï¿½ï¿½ï¿½Ý­nï¿½Bï¿½zï¿½hï¿½Úµï¿½ï¿½Rï¿½ï¿½Aï¿½Ð±a0ï¿½A
+	 * ï¿½uï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½vï¿½ï¿½ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½nï¿½ï¿½ï¿½ï¿½Oï¿½vï¿½ï¿½Aï¿½ï¿½ï¿½Úµï¿½ï¿½ï¿½ï¿½xï¿½|ï¿½ï¿½ï¿½C
+	 *  ï¿½`ï¿½Nï¿½Æ¶ï¿½ï¿½G
+	 *   ï¿½ï¿½ï¿½Yï¿½Ý­nï¿½Bï¿½zï¿½ï¿½ï¿½Bï¿½Î³ï¿½ï¿½ï¿½ï¿½hï¿½Úµï¿½ï¿½Rï¿½ï¿½É¡Aï¿½Ð±aï¿½ï¿½ï¿½Ñ¼Æ¡Cï¿½ï¿½ï¿½Ä½dï¿½ï¿½0ï¿½ï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½C 
+	 *   ï¿½ï¿½ï¿½|ï¿½ï¿½ï¿½Ó½Ð¼ï¿½ï¿½Úªï¿½ï¿½B[CaptureAMT] +ï¿½nï¿½hï¿½Úµï¿½ï¿½Rï¿½èªºï¿½ï¿½ï¿½B[UserRefundAMT] = ï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½C
 	 * @return UserRefundAMT
 	 */
 	public String getUserRefundAMT() {
 		return UserRefundAMT;
 	}
 	/**
-	 * ³]©wUserRefundAMT ­n°h´Úµ¹¶R¤èªºª÷ÃB¡A­Y¤£»Ý­n³B²z°h´Úµ¹¶R¤è¡A½Ð±a0¡A
-	 * ¡u­q³æ¥æ©öª÷ÃB¡v¦©°£¡u¥²­n¤âÄò¶O¡v«á¡A¼·´Úµ¹¥­¥x·|­û¡C
-	 *  ª`·N¨Æ¶µ¡G
-	 *   ¡°­Y»Ý­n³B²z¥þÃB©Î³¡¥÷°h´Úµ¹¶R¤è®É¡A½Ð±a¦¹°Ñ¼Æ¡C¦³®Ä½d³ò¬°0¡ã­q³æ¥æ©öª÷ÃB¡C 
-	 *   ¡°·|­û¥Ó½Ð¼·´Úª÷ÃB[CaptureAMT] +­n°h´Úµ¹¶R¤èªºª÷ÃB[UserRefundAMT] = ­q³æ¥æ©öª÷ÃB¡C
+	 * ï¿½]ï¿½wUserRefundAMT ï¿½nï¿½hï¿½Úµï¿½ï¿½Rï¿½èªºï¿½ï¿½ï¿½Bï¿½Aï¿½Yï¿½ï¿½ï¿½Ý­nï¿½Bï¿½zï¿½hï¿½Úµï¿½ï¿½Rï¿½ï¿½Aï¿½Ð±a0ï¿½A
+	 * ï¿½uï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½vï¿½ï¿½ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½nï¿½ï¿½ï¿½ï¿½Oï¿½vï¿½ï¿½Aï¿½ï¿½ï¿½Úµï¿½ï¿½ï¿½ï¿½xï¿½|ï¿½ï¿½ï¿½C
+	 *  ï¿½`ï¿½Nï¿½Æ¶ï¿½ï¿½G
+	 *   ï¿½ï¿½ï¿½Yï¿½Ý­nï¿½Bï¿½zï¿½ï¿½ï¿½Bï¿½Î³ï¿½ï¿½ï¿½ï¿½hï¿½Úµï¿½ï¿½Rï¿½ï¿½É¡Aï¿½Ð±aï¿½ï¿½ï¿½Ñ¼Æ¡Cï¿½ï¿½ï¿½Ä½dï¿½ï¿½0ï¿½ï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½C 
+	 *   ï¿½ï¿½ï¿½|ï¿½ï¿½ï¿½Ó½Ð¼ï¿½ï¿½Úªï¿½ï¿½B[CaptureAMT] +ï¿½nï¿½hï¿½Úµï¿½ï¿½Rï¿½èªºï¿½ï¿½ï¿½B[UserRefundAMT] = ï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½C
 	 * @param userRefundAMT
 	 */
 	public void setUserRefundAMT(String userRefundAMT) {
 		UserRefundAMT = userRefundAMT;
 	}
 	/**
-	 * ¨ú±oPlatformID ¯S¬ù¦X§@¥­¥x°Ó¥N¸¹(¥ÑO'Pay´£¨Ñ)
+	 * ï¿½ï¿½ï¿½oPlatformID ï¿½Sï¿½ï¿½ï¿½Xï¿½@ï¿½ï¿½ï¿½xï¿½Ó¥Nï¿½ï¿½(ï¿½ï¿½O'Payï¿½ï¿½ï¿½ï¿½)
 	 * @return PlatformID
 	 */
 	public String getPlatformID() {
 		return PlatformID;
 	}
 	/**
-	 * ³]©wPlatformID ¯S¬ù¦X§@¥­¥x°Ó¥N¸¹(¥ÑO'Pay´£¨Ñ)
+	 * ï¿½]ï¿½wPlatformID ï¿½Sï¿½ï¿½ï¿½Xï¿½@ï¿½ï¿½ï¿½xï¿½Ó¥Nï¿½ï¿½(ï¿½ï¿½O'Payï¿½ï¿½ï¿½ï¿½)
 	 * @param platformID
 	 */
 	public void setPlatformID(String platformID) {
 		PlatformID = platformID;
 	}
 	/**
-	 * ¨ú±oUpdatePlatformChargeFee ¬O§_§ó§ï¯S¬ù¦X§@¥­¥x°Ó¤âÄò¶O¡A¹w³]¬°N¡C
-	 * ­Y¥­¥x¦³»Ý­n§ó§ï¡u­q³æ²£¥Í¡v®Éªº¯S¬ù¦X§@¥­¥x°Ó¤âÄò¶O[PlatformChargeFee]®É¡G 
-	 * ­Y¤£§ó§ï®É¡A°Ñ¼Æ½Ð±a¡GN¡C 
-	 * ­Y­n§ó§ï®É¡A°Ñ¼Æ½Ð±a¡GY¡C 
-	 * ª`·N¨Æ¶µ¡G ¡°¦¹°Ñ¼Æ¬°±M®×¦X§@ªº¥­¥x°Ó¨Ï¥Î¡A¤@¯ë·|­û¤¶±µ½Ð©ñªÅ­È¡C
+	 * ï¿½ï¿½ï¿½oUpdatePlatformChargeFee ï¿½Oï¿½_ï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Xï¿½@ï¿½ï¿½ï¿½xï¿½Ó¤ï¿½ï¿½ï¿½Oï¿½Aï¿½wï¿½]ï¿½ï¿½Nï¿½C
+	 * ï¿½Yï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Ý­nï¿½ï¿½ï¿½uï¿½qï¿½æ²£ï¿½Í¡vï¿½Éªï¿½ï¿½Sï¿½ï¿½ï¿½Xï¿½@ï¿½ï¿½ï¿½xï¿½Ó¤ï¿½ï¿½ï¿½O[PlatformChargeFee]ï¿½É¡G 
+	 * ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½É¡Aï¿½Ñ¼Æ½Ð±aï¿½GNï¿½C 
+	 * ï¿½Yï¿½nï¿½ï¿½ï¿½É¡Aï¿½Ñ¼Æ½Ð±aï¿½GYï¿½C 
+	 * ï¿½`ï¿½Nï¿½Æ¶ï¿½ï¿½G ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¼Æ¬ï¿½ï¿½Mï¿½×¦Xï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½Ó¨Ï¥Î¡Aï¿½@ï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð©ï¿½Å­È¡C
 	 * @return UpdatePlatformChargeFee
 	 */
 	public String getUpdatePlatformChargeFee() {
 		return UpdatePlatformChargeFee;
 	}
 	/**
-	 * ³]©wUpdatePlatformChargeFee ¬O§_§ó§ï¯S¬ù¦X§@¥­¥x°Ó¤âÄò¶O¡A¹w³]¬°N¡C
-	 * ­Y¥­¥x¦³»Ý­n§ó§ï¡u­q³æ²£¥Í¡v®Éªº¯S¬ù¦X§@¥­¥x°Ó¤âÄò¶O[PlatformChargeFee]®É¡G 
-	 * ­Y¤£§ó§ï®É¡A°Ñ¼Æ½Ð±a¡GN¡C 
-	 * ­Y­n§ó§ï®É¡A°Ñ¼Æ½Ð±a¡GY¡C 
-	 * ª`·N¨Æ¶µ¡G ¡°¦¹°Ñ¼Æ¬°±M®×¦X§@ªº¥­¥x°Ó¨Ï¥Î¡A¤@¯ë·|­û¤¶±µ½Ð©ñªÅ­È¡C
+	 * ï¿½]ï¿½wUpdatePlatformChargeFee ï¿½Oï¿½_ï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Xï¿½@ï¿½ï¿½ï¿½xï¿½Ó¤ï¿½ï¿½ï¿½Oï¿½Aï¿½wï¿½]ï¿½ï¿½Nï¿½C
+	 * ï¿½Yï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Ý­nï¿½ï¿½ï¿½uï¿½qï¿½æ²£ï¿½Í¡vï¿½Éªï¿½ï¿½Sï¿½ï¿½ï¿½Xï¿½@ï¿½ï¿½ï¿½xï¿½Ó¤ï¿½ï¿½ï¿½O[PlatformChargeFee]ï¿½É¡G 
+	 * ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½É¡Aï¿½Ñ¼Æ½Ð±aï¿½GNï¿½C 
+	 * ï¿½Yï¿½nï¿½ï¿½ï¿½É¡Aï¿½Ñ¼Æ½Ð±aï¿½GYï¿½C 
+	 * ï¿½`ï¿½Nï¿½Æ¶ï¿½ï¿½G ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¼Æ¬ï¿½ï¿½Mï¿½×¦Xï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½Ó¨Ï¥Î¡Aï¿½@ï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð©ï¿½Å­È¡C
 	 * @param updatePlatformChargeFee
 	 */
 	public void setUpdatePlatformChargeFee(String updatePlatformChargeFee) {
 		UpdatePlatformChargeFee = updatePlatformChargeFee;
 	}
 	/**
-	 * ¨ú±oPlatformChargeFee ¯S¬ù¦X§@¥­¥x°Ó¤âÄò¶O¡A­Y[UpdatePlatformChargeFee]³]©w¬°Y®É¡A½Ð±a¦¹°Ñ¼Æ¡C
-	 * ¨Ò¦p¡G­Y¦]¬°¥þÃB°h´Úµ¹¶R¤è¡A¦pªG¦¹µ§­q³æªº¡u¯S¬ù¦X§@¥­¥x°Ó¤âÄò¶O¡v¤£¦¬ªº¸Ü¡A½Ð±a0¡C
-	 * ª`·N¨Æ¶µ¡G
-	 * ¡°¦³®Ä½d³ò¬°0¡ã­q³æ²£¥Í®Éªº¯S¬ù¦X§@¥­¥x°Ó¤âÄò¶O¡C
-	 * ¡°¦¹°Ñ¼Æ¬°±M®×¦X§@ªº¥­¥x°Ó¨Ï¥Î¡A¤@¯ë·|­û¤¶±µ½Ð©ñªÅ­È¡C
+	 * ï¿½ï¿½ï¿½oPlatformChargeFee ï¿½Sï¿½ï¿½ï¿½Xï¿½@ï¿½ï¿½ï¿½xï¿½Ó¤ï¿½ï¿½ï¿½Oï¿½Aï¿½Y[UpdatePlatformChargeFee]ï¿½]ï¿½wï¿½ï¿½Yï¿½É¡Aï¿½Ð±aï¿½ï¿½ï¿½Ñ¼Æ¡C
+	 * ï¿½Ò¦pï¿½Gï¿½Yï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½hï¿½Úµï¿½ï¿½Rï¿½ï¿½Aï¿½pï¿½Gï¿½ï¿½ï¿½ï¿½ï¿½qï¿½æªºï¿½uï¿½Sï¿½ï¿½ï¿½Xï¿½@ï¿½ï¿½ï¿½xï¿½Ó¤ï¿½ï¿½ï¿½Oï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü¡Aï¿½Ð±a0ï¿½C
+	 * ï¿½`ï¿½Nï¿½Æ¶ï¿½ï¿½G
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½Ä½dï¿½ï¿½0ï¿½ï¿½qï¿½æ²£ï¿½Í®Éªï¿½ï¿½Sï¿½ï¿½ï¿½Xï¿½@ï¿½ï¿½ï¿½xï¿½Ó¤ï¿½ï¿½ï¿½Oï¿½C
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¼Æ¬ï¿½ï¿½Mï¿½×¦Xï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½Ó¨Ï¥Î¡Aï¿½@ï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð©ï¿½Å­È¡C
 	 * @return PlatformChargeFee
 	 */
 	public String getPlatformChargeFee() {
 		return PlatformChargeFee;
 	}
 	/**
-	 * ³]©wPlatformChargeFee ¯S¬ù¦X§@¥­¥x°Ó¤âÄò¶O¡A­Y[UpdatePlatformChargeFee]³]©w¬°Y®É¡A½Ð±a¦¹°Ñ¼Æ¡C
-	 * ¨Ò¦p¡G­Y¦]¬°¥þÃB°h´Úµ¹¶R¤è¡A¦pªG¦¹µ§­q³æªº¡u¯S¬ù¦X§@¥­¥x°Ó¤âÄò¶O¡v¤£¦¬ªº¸Ü¡A½Ð±a0¡C
-	 * ª`·N¨Æ¶µ¡G
-	 * ¡°¦³®Ä½d³ò¬°0¡ã­q³æ²£¥Í®Éªº¯S¬ù¦X§@¥­¥x°Ó¤âÄò¶O¡C
-	 * ¡°¦¹°Ñ¼Æ¬°±M®×¦X§@ªº¥­¥x°Ó¨Ï¥Î¡A¤@¯ë·|­û¤¶±µ½Ð©ñªÅ­È¡C
+	 * ï¿½]ï¿½wPlatformChargeFee ï¿½Sï¿½ï¿½ï¿½Xï¿½@ï¿½ï¿½ï¿½xï¿½Ó¤ï¿½ï¿½ï¿½Oï¿½Aï¿½Y[UpdatePlatformChargeFee]ï¿½]ï¿½wï¿½ï¿½Yï¿½É¡Aï¿½Ð±aï¿½ï¿½ï¿½Ñ¼Æ¡C
+	 * ï¿½Ò¦pï¿½Gï¿½Yï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½hï¿½Úµï¿½ï¿½Rï¿½ï¿½Aï¿½pï¿½Gï¿½ï¿½ï¿½ï¿½ï¿½qï¿½æªºï¿½uï¿½Sï¿½ï¿½ï¿½Xï¿½@ï¿½ï¿½ï¿½xï¿½Ó¤ï¿½ï¿½ï¿½Oï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü¡Aï¿½Ð±a0ï¿½C
+	 * ï¿½`ï¿½Nï¿½Æ¶ï¿½ï¿½G
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½Ä½dï¿½ï¿½0ï¿½ï¿½qï¿½æ²£ï¿½Í®Éªï¿½ï¿½Sï¿½ï¿½ï¿½Xï¿½@ï¿½ï¿½ï¿½xï¿½Ó¤ï¿½ï¿½ï¿½Oï¿½C
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¼Æ¬ï¿½ï¿½Mï¿½×¦Xï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½Ó¨Ï¥Î¡Aï¿½@ï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð©ï¿½Å­È¡C
 	 * @param platformChargeFee
 	 */
 	public void setPlatformChargeFee(String platformChargeFee) {
 		PlatformChargeFee = platformChargeFee;
 	}
 	/**
-	 * ¨ú±oRemark ³Æµù
+	 * ï¿½ï¿½ï¿½oRemark ï¿½Æµï¿½
 	 * @return Remark
 	 */
 	public String getRemark() {
 		return Remark;
 	}
 	/**
-	 * ³]©wRemark ³Æµù
+	 * ï¿½]ï¿½wRemark ï¿½Æµï¿½
 	 * @param remark
 	 */
 	public void setRemark(String remark) {

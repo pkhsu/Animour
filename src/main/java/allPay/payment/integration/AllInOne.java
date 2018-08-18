@@ -50,7 +50,7 @@ import allPay.payment.integration.verification.VerifyQueryTradeInfo;
 import allPay.payment.integration.verification.VerifyTradeNoAio;
 
 /**
- * ¥þ¥\¯àµL¼i¬ù«OÃÒÃþ§O
+ * ï¿½ï¿½ï¿½\ï¿½ï¿½Lï¿½iï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½O
  * @author mark.chiu
  *
  */
@@ -60,7 +60,7 @@ public class AllInOne extends AllInOneBase{
 	
 	/**
 	 * AllInOne Constructor 
-	 * °Ñ¼Æ±a¤Jlog4j.propertiesªº¸ô®|¡A­Y±a¤JªÅ¦r¦ê«h¹w³]¤£²£¥Ílog
+	 * ï¿½Ñ¼Æ±aï¿½Jlog4j.propertiesï¿½ï¿½ï¿½ï¿½|ï¿½Aï¿½Yï¿½aï¿½Jï¿½Å¦rï¿½ï¿½hï¿½wï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½log
 	 * @param log4jPropertiesPath
 	 */
 	public AllInOne(String log4jPropertiesPath){
@@ -76,7 +76,7 @@ public class AllInOne extends AllInOneBase{
 	}
 	
 	/**
-	 * ÀË¬dHashtable¤¤ªºÀË¬d½X¬O§_¥¿½T(½T«O¸ê®Æ¥¼³QÂ«§ï)
+	 * ï¿½Ë¬dHashtableï¿½ï¿½ï¿½ï¿½ï¿½Ë¬dï¿½Xï¿½Oï¿½_ï¿½ï¿½ï¿½T(ï¿½Tï¿½Oï¿½ï¿½Æ¥ï¿½ï¿½QÂ«ï¿½ï¿½)
 	 * @param Hashtable params
 	 * @return boolean 
 	 */
@@ -98,7 +98,7 @@ public class AllInOne extends AllInOneBase{
 	}
 	
 	/**
-	 * ·|­û¥Ó½Ð¼·´Ú/°h´Úªº¤èªk
+	 * ï¿½|ï¿½ï¿½ï¿½Ó½Ð¼ï¿½ï¿½ï¿½/ï¿½hï¿½Úªï¿½ï¿½ï¿½k
 	 * @param captureObj
 	 * @return response string
 	 */
@@ -131,7 +131,7 @@ public class AllInOne extends AllInOneBase{
 	}
 	
 	/**
-	 * ¤U¸ü«H¥Î¥d¼·´Ú¹ï±b¸ê®ÆÀÉªº¤èªk
+	 * ï¿½Uï¿½ï¿½ï¿½Hï¿½Î¥dï¿½ï¿½ï¿½Ú¹ï¿½bï¿½ï¿½ï¿½ï¿½Éªï¿½ï¿½ï¿½k
 	 * @param fundingReconDetailObj
 	 * @return response string
 	 */
@@ -186,7 +186,7 @@ public class AllInOne extends AllInOneBase{
 	}
 	
 	/**
-	 * ·|­û³qª¾°h´Úªº¤èªk
+	 * ï¿½|ï¿½ï¿½ï¿½qï¿½ï¿½ï¿½hï¿½Úªï¿½ï¿½ï¿½k
 	 * @param aioChargebackObj
 	 * @return response string
 	 */
@@ -219,7 +219,7 @@ public class AllInOne extends AllInOneBase{
 	}
 	
 	/**
-	 * ¬d¸ß«H¥Î¥d³æµ§©ú²Ó°O¿ýªº¤èªk
+	 * ï¿½dï¿½ß«Hï¿½Î¥dï¿½æµ§ï¿½ï¿½ï¿½Ó°Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½k
 	 * @param queryTradeObj
 	 * @return response string
 	 */
@@ -246,7 +246,7 @@ public class AllInOne extends AllInOneBase{
 	}
 	
 	/**
-	 * ¤U¸ü·|­û¹ï±b´CÅéÀÉªº¤èªk
+	 * ï¿½Uï¿½ï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½bï¿½Cï¿½ï¿½ï¿½Éªï¿½ï¿½ï¿½k
 	 * @param tradeNoAioObj
 	 * @return response string
 	 */
@@ -294,7 +294,7 @@ public class AllInOne extends AllInOneBase{
 	}
 	
 	/**
-	 * «H¥Î¥dÃö±b/°h¨ê/¨ú®ø/©ñ±óªº¤èªk
+	 * ï¿½Hï¿½Î¥dï¿½ï¿½ï¿½b/ï¿½hï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½óªº¤ï¿½k
 	 * @param doActionObj
 	 * @return response string
 	 */
@@ -327,7 +327,7 @@ public class AllInOne extends AllInOneBase{
 	}
 	
 	/**
-	 * ¬d¸ß­q³æ¸ê®Æªº¤èªk
+	 * ï¿½dï¿½ß­qï¿½ï¿½ï¿½Æªï¿½ï¿½ï¿½k
 	 * @param queryTradeInfoObj
 	 * @return response string
 	 */
@@ -361,7 +361,7 @@ public class AllInOne extends AllInOneBase{
 	}
 	
 	/**
-	 * «H¥Î¥d©w´Á©wÃB­q³æ¬d¸ß
+	 * ï¿½Hï¿½Î¥dï¿½wï¿½ï¿½ï¿½wï¿½Bï¿½qï¿½ï¿½dï¿½ï¿½
 	 * @param queryCreditCardPeriodInfoObj
 	 * @return response JSON string
 	 */
@@ -390,8 +390,8 @@ public class AllInOne extends AllInOneBase{
 	
 	
 	/**
-	 * ²£¥Í­q³æHtml Formªº¤èªk
-	 * @param obj AioCheckOutÃþ«¬ªºª«¥ó
+	 * ï¿½ï¿½ï¿½Í­qï¿½ï¿½Html Formï¿½ï¿½ï¿½ï¿½k
+	 * @param obj AioCheckOutï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 * @param invoice
 	 * @return String
 	 */
@@ -547,7 +547,7 @@ public class AllInOne extends AllInOneBase{
 	}
 	
 	/**
-	 * ATM, CVS¨ú¸¹µ²ªG³qª¾¤èªk¡A±µ¦¬¶Ç°e¦ÜPaymentInfoURLªº¸ê®Æ¡C¦^¶Çª«¥ó¤À¬°ATMRequestObj, CVSRequestObj¤GºØ¡A½Ð¥Î¾A·íªºª«¥ó©Ó±µ¥H§K¥X¿ù
+	 * ATM, CVSï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Gï¿½qï¿½ï¿½ï¿½ï¿½kï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Ç°eï¿½ï¿½PaymentInfoURLï¿½ï¿½ï¿½ï¿½Æ¡Cï¿½^ï¿½Çªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ATMRequestObj, CVSRequestObjï¿½Gï¿½Ø¡Aï¿½Ð¥Î¾Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó±ï¿½ï¿½Hï¿½Kï¿½Xï¿½ï¿½
 	 * @param req
 	 * @return obj
 	 */
@@ -595,7 +595,7 @@ public class AllInOne extends AllInOneBase{
 	}
 	
 	/**
-	 * ²£¥ÍHTML code
+	 * ï¿½ï¿½ï¿½ï¿½HTML code
 	 * @param aio object
 	 * @param invoice object
 	 * @return string

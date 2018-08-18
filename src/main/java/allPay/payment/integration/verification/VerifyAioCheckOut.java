@@ -67,41 +67,41 @@ public class VerifyAioCheckOut extends PaymentVerifyBase {
 	}
 	
 	public void verifyInvoice(InvoiceObj obj){
-		// 1. ¤ñ¹ï¯S®íÄæ¦ì­È¬Û¨Ì»Ý¨D
-		// a. [CarruerType]¬° 1 => CustomerID ¤£¯à¬°ªÅ
+		// 1. ï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½ï¿½ï¿½È¬Û¨Ì»Ý¨D
+		// a. [CarruerType]ï¿½ï¿½ 1 => CustomerID ï¿½ï¿½ï¿½à¬°ï¿½ï¿½
 		if(obj.getCarruerType().equals("1")){ 
 			if(obj.getCustomerID().isEmpty())
 				throw new AllPayException("CustomerID cannot be empty when CarruerType is 1.");
-		} else if(!obj.getCustomerID().isEmpty()){ // [CustomerID]¤£¬°ªÅ => CarruerType ¤£¯à¬°ªÅ
+		} else if(!obj.getCustomerID().isEmpty()){ // [CustomerID]ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ => CarruerType ï¿½ï¿½ï¿½à¬°ï¿½ï¿½
 			if(obj.getCarruerType().isEmpty())
 				throw new AllPayException("CarruerType cannot be empty when CustomerID is not empty.");
 		}
-		// b. ¦C¦Lµù°O[Print]¬°1 => CustomerName, CustomerAddr
+		// b. ï¿½Cï¿½Lï¿½ï¿½ï¿½O[Print]ï¿½ï¿½1 => CustomerName, CustomerAddr
 		if(obj.getPrint().equals("1")){
 			if(obj.getCustomerName().isEmpty() || obj.getCustomerAddr().isEmpty())
 				throw new AllPayException("CustomerName and CustomerAddr cannot be empty when Print is 1.");
 			if(!obj.getCustomerID().isEmpty())
 				throw new AllPayException("Print cannot be 1 when CustomerID is not empty.");
 		}
-		// c. CustomerPhone©MCustomerEmail¦Ü¤Ö¤@­Ó¦³­È
+		// c. CustomerPhoneï¿½MCustomerEmailï¿½Ü¤Ö¤@ï¿½Ó¦ï¿½ï¿½ï¿½
 		if(obj.getCustomerPhone().isEmpty() && obj.getCustomerEmail().isEmpty())
 			throw new AllPayException("CustomerPhone and CustomerEmail cannot both be empty.");
-		// d. [TaxType]¬° 2 => ClearanceMark = 1 or 2
+		// d. [TaxType]ï¿½ï¿½ 2 => ClearanceMark = 1 or 2
 		if(obj.getTaxType().equals("2"))
 			if(!obj.getClearanceMark().equals("1") && !obj.getClearanceMark().equals("2"))
 				throw new AllPayException("ClearanceMark has to be 1 or 2 when TaxType is 2.");
-		// e. ²Î¤@½s¸¹[CustomerIdentifier]¦³­È®É => CarruerType != 1 or 2, *Donation = 2, print = 1
+		// e. ï¿½Î¤@ï¿½sï¿½ï¿½[CustomerIdentifier]ï¿½ï¿½ï¿½È®ï¿½ => CarruerType != 1 or 2, *Donation = 2, print = 1
 		if(!obj.getCustomerIdentifier().isEmpty()){
 			if(obj.getCarruerType().equals("1") || obj.getCarruerType().equals("2"))
 				throw new AllPayException("CarruerType cannot be 1 or 2 when CustomerIdentifier is given");
 			if(!obj.getDonation().equals("2") || !obj.getPrint().equals("1"))
 				throw new AllPayException("Print must be 1 and Donation must be 2 when CustomerIdentifier is given.");
 		}
-		// f. CarruerType¦³­È®É=> Print = 0
+		// f. CarruerTypeï¿½ï¿½ï¿½È®ï¿½=> Print = 0
 		if(!obj.getCarruerType().isEmpty())
 			if(obj.getPrint().equals("1"))
 				throw new AllPayException("Print must be 0 when CarruerType is given.");
-		// [CarruerType]¬°'' or 1 ®É => CarruerNum = '', [CarruerType]¬° 2¡A CarruerNum = ©T©wªø«×¬° 16 ¥B®æ¦¡¬° 2 ½X¤j¤p¼g¦r¥À¥[¤W 14 ½X¼Æ¦r¡C [CarruerType]¬° 3 ¡A±a©T©wªø«×¬° 8 ¥B®æ¦¡¬° 1 ½X±×½u¡u/¡v¥[¤W¥Ñ 7 ½X¼Æ¦r¤Î¤j¤p¼g¦r¥À²Õ¦¨
+		// [CarruerType]ï¿½ï¿½'' or 1 ï¿½ï¿½ => CarruerNum = '', [CarruerType]ï¿½ï¿½ 2ï¿½A CarruerNum = ï¿½Tï¿½wï¿½ï¿½ï¿½×¬ï¿½ 16 ï¿½Bï¿½æ¦¡ï¿½ï¿½ 2 ï¿½Xï¿½jï¿½pï¿½gï¿½rï¿½ï¿½ï¿½[ï¿½W 14 ï¿½Xï¿½Æ¦rï¿½C [CarruerType]ï¿½ï¿½ 3 ï¿½Aï¿½aï¿½Tï¿½wï¿½ï¿½ï¿½×¬ï¿½ 8 ï¿½Bï¿½æ¦¡ï¿½ï¿½ 1 ï¿½Xï¿½×½uï¿½u/ï¿½vï¿½[ï¿½Wï¿½ï¿½ 7 ï¿½Xï¿½Æ¦rï¿½Î¤jï¿½pï¿½gï¿½rï¿½ï¿½ï¿½Õ¦ï¿½
 		if(obj.getCarruerType().isEmpty() || obj.getCarruerType().equals("1")){
 			if(!obj.getCarruerNum().isEmpty())
 				throw new AllPayException("CarruerNum must be empty when CarruerType is empty or 1.");
@@ -117,14 +117,14 @@ public class VerifyAioCheckOut extends PaymentVerifyBase {
 				throw new AllPayException("CarruerNum must start with / followed by 7 alphabet and number characters when CarruerType is 3.");
 		} else
 			throw new AllPayException("Unexpected Value in CarruerType");
-		// Donation = 1 => LoveCode¤£¯à¬°ªÅ, print = 0
+		// Donation = 1 => LoveCodeï¿½ï¿½ï¿½à¬°ï¿½ï¿½, print = 0
 		if(obj.getDonation().equals("1")){
 			if(obj.getLoveCode().isEmpty())
 				throw new AllPayException("LoveCode cannot be empty when Donation is 1.");
 			if(!obj.getPrint().equals("0"))
 				throw new AllPayException("Print must be 0 when Donation is 1.");
 		}
-		// 2. ¤ñ¹ï°Ó«~¦WºÙ¡A¼Æ¶q¡A³æ¦ì¡A»ù®æ¡Atax¶µ¥Ø¼Æ¶q¬O§_¤@­P
+		// 2. ï¿½ï¿½ï¿½Ó«~ï¿½Wï¿½Ù¡Aï¿½Æ¶qï¿½Aï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½Ataxï¿½ï¿½ï¿½Ø¼Æ¶qï¿½Oï¿½_ï¿½@ï¿½P
 		if(obj.getInvoiceItemName().isEmpty())
 			throw new AllPayException("InvoiceItemName cannot be empty.");
 		else if(obj.getInvoiceItemCount().isEmpty())
@@ -135,7 +135,7 @@ public class VerifyAioCheckOut extends PaymentVerifyBase {
 			throw new AllPayException("InvoiceItemPrice cannot be empty.");
 		else if(obj.getInvoiceItemTaxType().isEmpty())
 			throw new AllPayException("InvoiceItemTaxType cannot be empty.");
-		// °Ó«~¦WºÙ§t¦³ºÞ½u => »{¬°¬O¦h¼Ë°Ó«~ *InvoiceItemName¡A *InvoiceItemCount ¡A*InvoiceItemWord¡A *InvoiceItemPrice InvoiceItemTaxType³v¤@¥ÎºÞ½u¤À³Î¡A­pºâ¼Æ¶q«á»P²Ä¤@­Ó¤ñ¹ï
+		// ï¿½Ó«~ï¿½Wï¿½Ù§tï¿½ï¿½ï¿½Þ½u => ï¿½{ï¿½ï¿½ï¿½Oï¿½hï¿½Ë°Ó«~ *InvoiceItemNameï¿½A *InvoiceItemCount ï¿½A*InvoiceItemWordï¿½A *InvoiceItemPrice InvoiceItemTaxTypeï¿½vï¿½@ï¿½ÎºÞ½uï¿½ï¿½ï¿½Î¡Aï¿½pï¿½ï¿½Æ¶qï¿½ï¿½Pï¿½Ä¤@ï¿½Ó¤ï¿½ï¿½
 		if(obj.getInvoiceItemName().contains("|")){
 			int itemCount = obj.getInvoiceItemName().split("|").length;
 			int paramCount = 0;
@@ -172,7 +172,7 @@ public class VerifyAioCheckOut extends PaymentVerifyBase {
 				if(itemCount != paramCount)
 					throw new AllPayException("Count of item info InvoiceItemTaxType(" + paramCount + ") not match item count from InvoiceItemName(" + itemCount + ")");
 			}
-			// ½Òµ|Ãþ§O[TaxType] = 9 ®É => InvoiceItemTaxType ¯à§t¦³1,2 3(and at least contains one 1 and other)
+			// ï¿½Òµ|ï¿½ï¿½ï¿½O[TaxType] = 9 ï¿½ï¿½ => InvoiceItemTaxType ï¿½ï¿½tï¿½ï¿½1,2 3(and at least contains one 1 and other)
 			String[] itemTax = obj.getInvoiceItemTaxType().split("\\|");
 			for(String tax : itemTax){
 				if(tax.equals("1") || tax.equals("2") || tax.equals("3"))
@@ -190,7 +190,7 @@ public class VerifyAioCheckOut extends PaymentVerifyBase {
 					throw new AllPayException("InvoiceItemTaxType cannot contain 2 and 3 at the same time.");
 			}
 		} else{
-			// ¨S¦³ºÞ½u => ³v¤@ÀË¬d«á4¶µ¦³µLºÞ½u
+			// ï¿½Sï¿½ï¿½ï¿½Þ½u => ï¿½vï¿½@ï¿½Ë¬dï¿½ï¿½4ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½Þ½u
 			if(obj.getInvoiceItemCount().contains("|"))
 				throw new AllPayException("Item info InvoiceItemCount contains pipeline delimiter but there's only one item in param InvoiceItemName.");
 			else if(obj.getInvoiceItemWord().contains("|"))
@@ -200,7 +200,7 @@ public class VerifyAioCheckOut extends PaymentVerifyBase {
 			else if(obj.getInvoiceItemTaxType().contains("|"))
 				throw new AllPayException("Item info InvoiceItemTaxType contains pipeline delimiter but there's only one item in param InvoiceItemName.");
 		}
-		// 4 ¤ñ¹ï©Ò¦³Äæ¦ìPattern
+		// 4 ï¿½ï¿½ï¿½Ò¦ï¿½ï¿½ï¿½ï¿½Pattern
 		verifyParams(obj);
 	}
 }

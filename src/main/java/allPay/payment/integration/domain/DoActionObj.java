@@ -1,7 +1,7 @@
 package allPay.payment.integration.domain;
 
 /**
- * «H¥Î¥dÃö±b/°h¨ê/¨ú®ø/©ñ±óª«¥ó
+ * ï¿½Hï¿½Î¥dï¿½ï¿½ï¿½b/ï¿½hï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½óª«¥ï¿½
  * @author mark.chiu
  *
  */
@@ -9,129 +9,129 @@ public class DoActionObj {
 	
 	/**
 	 * MerchantID
-	 * ·|­û½s¸¹(¥ÑallPay´£¨Ñ)
+	 * ï¿½|ï¿½ï¿½ï¿½sï¿½ï¿½(ï¿½ï¿½allPayï¿½ï¿½ï¿½ï¿½)
 	 */
 	private String MerchantID = "";
 	
 	/**
 	 * MerchantTradeNo
-	 * ·|­û¥æ©ö½s¸¹
+	 * ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½
 	 */
 	private String MerchantTradeNo = "";
 	
 	/**
 	 * TradeNo
-	 * allPayªº¥æ©ö½s¸¹
+	 * allPayï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½
 	 */
 	private String TradeNo = "";
 	
 	/**
 	 * Action
-	 * °õ¦æ°Ê§@
+	 * ï¿½ï¿½ï¿½ï¿½Ê§@
 	 */
 	private String Action = "";
 	
 	/**
 	 * TotalAmount
-	 * ª÷ÃB
+	 * ï¿½ï¿½ï¿½B
 	 */
 	private String TotalAmount = "";
 	
 	/**
 	 * PlatformID
-	 * ¯S¬ù¦X§@¥­¥x°Ó¥N¸¹(¥ÑallPay´£¨Ñ)
+	 * ï¿½Sï¿½ï¿½ï¿½Xï¿½@ï¿½ï¿½ï¿½xï¿½Ó¥Nï¿½ï¿½(ï¿½ï¿½allPayï¿½ï¿½ï¿½ï¿½)
 	 */
 	private String PlatformID = "";
 	
 	/********************* getters and setters *********************/
 	
 	/**
-	 * ¨ú±oMerchantID ·|­û½s¸¹(¥ÑO'Pay´£¨Ñ)¡A·í¦¹¥­¥x¬°¯S¬ù¦X§@¥­¥x±ý«Ø¥ß­q³æ®É¡A¸ÓÄæ¦ì¤~¦³®Ä¡C¤@¯ë¥­¥x°Ó½Ð©¿²¤¦¹Äæ¦ì
+	 * ï¿½ï¿½ï¿½oMerchantID ï¿½|ï¿½ï¿½ï¿½sï¿½ï¿½(ï¿½ï¿½O'Payï¿½ï¿½ï¿½ï¿½)ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Xï¿½@ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Ø¥ß­qï¿½ï¿½É¡Aï¿½ï¿½ï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Ä¡Cï¿½@ï¿½ë¥­ï¿½xï¿½Ó½Ð©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 * @return MerchantID
 	 */
 	public String getMerchantID() {
 		return MerchantID;
 	}
 	/**
-	 * ³]©wMerchantID ·|­û½s¸¹(¥ÑO'Pay´£¨Ñ)¡A·í¦¹¥­¥x¬°¯S¬ù¦X§@¥­¥x±ý«Ø¥ß­q³æ®É¡A¸ÓÄæ¦ì¤~¦³®Ä¡C¤@¯ë¥­¥x°Ó½Ð©¿²¤¦¹Äæ¦ì
+	 * ï¿½]ï¿½wMerchantID ï¿½|ï¿½ï¿½ï¿½sï¿½ï¿½(ï¿½ï¿½O'Payï¿½ï¿½ï¿½ï¿½)ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Xï¿½@ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Ø¥ß­qï¿½ï¿½É¡Aï¿½ï¿½ï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Ä¡Cï¿½@ï¿½ë¥­ï¿½xï¿½Ó½Ð©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 * @param merchantID
 	 */
 	public void setMerchantID(String merchantID) {
 		MerchantID = merchantID;
 	}
 	/**
-	 * ¨ú±oMerchantTradeNo ·|­û¥æ©ö½s¸¹¡A­q³æ²£¥Í®É¶Ç°eµ¹O¡¦Payªº·|­û¥æ©ö½s¸¹¡C
+	 * ï¿½ï¿½ï¿½oMerchantTradeNo ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Aï¿½qï¿½æ²£ï¿½Í®É¶Ç°eï¿½ï¿½Oï¿½ï¿½Payï¿½ï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½C
 	 * @return MerchantTradeNo
 	 */
 	public String getMerchantTradeNo() {
 		return MerchantTradeNo;
 	}
 	/**
-	 * ³]©wMerchantTradeNo ·|­û¥æ©ö½s¸¹¡A­q³æ²£¥Í®É¶Ç°eµ¹O¡¦Payªº·|­û¥æ©ö½s¸¹¡C
+	 * ï¿½]ï¿½wMerchantTradeNo ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Aï¿½qï¿½æ²£ï¿½Í®É¶Ç°eï¿½ï¿½Oï¿½ï¿½Payï¿½ï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½C
 	 * @param merchantTradeNo
 	 */
 	public void setMerchantTradeNo(String merchantTradeNo) {
 		MerchantTradeNo = merchantTradeNo;
 	}
 	/**
-	 * ¨ú±oTradeNo O¡¦Payªº¥æ©ö½s¸¹
+	 * ï¿½ï¿½ï¿½oTradeNo Oï¿½ï¿½Payï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½
 	 * @return TradeNo
 	 */
 	public String getTradeNo() {
 		return TradeNo;
 	}
 	/**
-	 * ³]©wTradeNo O¡¦Payªº¥æ©ö½s¸¹
+	 * ï¿½]ï¿½wTradeNo Oï¿½ï¿½Payï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½
 	 * @param tradeNo
 	 */
 	public void setTradeNo(String tradeNo) {
 		TradeNo = tradeNo;
 	}
 	/**
-	 * ¨ú±oAction °õ¦æ°Ê§@¡A°w¹ï­q³æ°µ³B²zªº°Ê§@¡A¨Ò¦p­n¹ï­q³æ°µÃö±b®É¡A½Ð±aC¡C
-	 * ¢°.­Y­n°õ¦æÃö±b®É¡A°Ñ¼Æ½Ð±a¡GC
-	 * ¢±.­Y­n°õ¦æ°h¨ê®É¡A°Ñ¼Æ½Ð±a¡GR
-	 * ¢².­Y­n°õ¦æ¨ú®ø®É¡A°Ñ¼Æ½Ð±a¡GE
-	 * ¢³.­Y­n°õ¦æ©ñ±ó®É¡A°Ñ¼Æ½Ð±a¡GN
+	 * ï¿½ï¿½ï¿½oAction ï¿½ï¿½ï¿½ï¿½Ê§@ï¿½Aï¿½wï¿½ï¿½qï¿½æ°µï¿½Bï¿½zï¿½ï¿½ï¿½Ê§@ï¿½Aï¿½Ò¦pï¿½nï¿½ï¿½qï¿½æ°µï¿½ï¿½ï¿½bï¿½É¡Aï¿½Ð±aCï¿½C
+	 * ï¿½ï¿½.ï¿½Yï¿½nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½bï¿½É¡Aï¿½Ñ¼Æ½Ð±aï¿½GC
+	 * ï¿½ï¿½.ï¿½Yï¿½nï¿½ï¿½ï¿½ï¿½hï¿½ï¿½É¡Aï¿½Ñ¼Æ½Ð±aï¿½GR
+	 * ï¿½ï¿½.ï¿½Yï¿½nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¡Aï¿½Ñ¼Æ½Ð±aï¿½GE
+	 * ï¿½ï¿½.ï¿½Yï¿½nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¡Aï¿½Ñ¼Æ½Ð±aï¿½GN
 	 * @return Action
 	 */
 	public String getAction() {
 		return Action;
 	}
 	/**
-	 * ³]©wAction °õ¦æ°Ê§@¡A°w¹ï­q³æ°µ³B²zªº°Ê§@¡A¨Ò¦p­n¹ï­q³æ°µÃö±b®É¡A½Ð±aC¡C
-	 * ¢°.­Y­n°õ¦æÃö±b®É¡A°Ñ¼Æ½Ð±a¡GC
-	 * ¢±.­Y­n°õ¦æ°h¨ê®É¡A°Ñ¼Æ½Ð±a¡GR
-	 * ¢².­Y­n°õ¦æ¨ú®ø®É¡A°Ñ¼Æ½Ð±a¡GE
-	 * ¢³.­Y­n°õ¦æ©ñ±ó®É¡A°Ñ¼Æ½Ð±a¡GN
+	 * ï¿½]ï¿½wAction ï¿½ï¿½ï¿½ï¿½Ê§@ï¿½Aï¿½wï¿½ï¿½qï¿½æ°µï¿½Bï¿½zï¿½ï¿½ï¿½Ê§@ï¿½Aï¿½Ò¦pï¿½nï¿½ï¿½qï¿½æ°µï¿½ï¿½ï¿½bï¿½É¡Aï¿½Ð±aCï¿½C
+	 * ï¿½ï¿½.ï¿½Yï¿½nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½bï¿½É¡Aï¿½Ñ¼Æ½Ð±aï¿½GC
+	 * ï¿½ï¿½.ï¿½Yï¿½nï¿½ï¿½ï¿½ï¿½hï¿½ï¿½É¡Aï¿½Ñ¼Æ½Ð±aï¿½GR
+	 * ï¿½ï¿½.ï¿½Yï¿½nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¡Aï¿½Ñ¼Æ½Ð±aï¿½GE
+	 * ï¿½ï¿½.ï¿½Yï¿½nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¡Aï¿½Ñ¼Æ½Ð±aï¿½GN
 	 * @param action
 	 */
 	public void setAction(String action) {
 		Action = action;
 	}
 	/**
-	 * ¨ú±oTotalAmount ª÷ÃB
+	 * ï¿½ï¿½ï¿½oTotalAmount ï¿½ï¿½ï¿½B
 	 * @return TotalAmount
 	 */
 	public String getTotalAmount() {
 		return TotalAmount;
 	}
 	/**
-	 * ³]©wTotalAmount ª÷ÃB
+	 * ï¿½]ï¿½wTotalAmount ï¿½ï¿½ï¿½B
 	 * @param totalAmount
 	 */
 	public void setTotalAmount(String totalAmount) {
 		TotalAmount = totalAmount;
 	}
 	/**
-	 * ¨ú±oPlatformID ¯S¬ù¦X§@¥­¥x°Ó¥N¸¹(¥ÑO¡¦Pay´£¨Ñ)
+	 * ï¿½ï¿½ï¿½oPlatformID ï¿½Sï¿½ï¿½ï¿½Xï¿½@ï¿½ï¿½ï¿½xï¿½Ó¥Nï¿½ï¿½(ï¿½ï¿½Oï¿½ï¿½Payï¿½ï¿½ï¿½ï¿½)
 	 * @return PlatformID
 	 */
 	public String getPlatformID() {
 		return PlatformID;
 	}
 	/**
-	 * ³]©wPlatformID ¯S¬ù¦X§@¥­¥x°Ó¥N¸¹(¥ÑO¡¦Pay´£¨Ñ)
+	 * ï¿½]ï¿½wPlatformID ï¿½Sï¿½ï¿½ï¿½Xï¿½@ï¿½ï¿½ï¿½xï¿½Ó¥Nï¿½ï¿½(ï¿½ï¿½Oï¿½ï¿½Payï¿½ï¿½ï¿½ï¿½)
 	 * @param platformID
 	 */
 	public void setPlatformID(String platformID) {

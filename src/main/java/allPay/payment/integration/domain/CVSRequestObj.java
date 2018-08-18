@@ -1,7 +1,7 @@
 package allPay.payment.integration.domain;
 
 /**
- * ·íChoosePayment¬°CVS®Éªº¨ú¸¹µ²ªG³qª¾ª«¥ó
+ * ï¿½ï¿½ChoosePaymentï¿½ï¿½CVSï¿½Éªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Gï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  * @author mark.chiu
  *
  */
@@ -9,104 +9,104 @@ public class CVSRequestObj {
 	
 	/**
 	 * MerchantID
-	 * ·|­û½s¸¹
+	 * ï¿½|ï¿½ï¿½ï¿½sï¿½ï¿½
 	 */
 	private String MerchantID;
 	
 	/**
 	 * MerchantTradeNo
-	 * ·|­û¥æ©ö½s¸¹
+	 * ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½
 	 */
 	private String MerchantTradeNo;
 	
 	/**
 	 * RtnCode
-	 * ¥æ©öª¬ºA
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½A
 	 */
 	private String RtnCode;
 	
 	/**
 	 * RtnMsg
-	 * ¥æ©ö°T®§
+	 * ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½
 	 */
 	private String RtnMsg;
 	
 	/**
 	 * TradeNo
-	 * allPayªº¥æ©ö½s¸¹
+	 * allPayï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½
 	 */
 	private String TradeNo;
 	
 	/**
 	 * TradeAmt
-	 * ¥æ©öª÷ÃB
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 	 */
 	private String TradeAmt;
 	
 	/**
 	 * PayAmt
-	 * ¹ê»Ú¥I´Úª÷ÃB
+	 * ï¿½ï¿½Ú¥Iï¿½Úªï¿½ï¿½B
 	 */
 	private String PayAmt;
 	
 	/**
 	 * RedeemAmt
-	 * §é©èª÷ÃB
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½B
 	 */
 	private String RedeemAmt;
 	
 	/**
 	 * PaymentType
-	 * ·|­û¿ï¾Üªº¥I´Ú¤è¦¡
+	 * ï¿½|ï¿½ï¿½ï¿½ï¿½Üªï¿½ï¿½Iï¿½Ú¤è¦¡
 	 */
 	private String PaymentType;
 	
 	/**
 	 * TradeDate
-	 * ­q³æ¦¨¥ß®É¶¡
+	 * ï¿½qï¿½æ¦¨ï¿½ß®É¶ï¿½
 	 */
 	private String TradeDate;
 	
 	/**
 	 * Barcode1
-	 * ±ø½X²Ä¤@¬q¸¹½X
+	 * ï¿½ï¿½ï¿½Xï¿½Ä¤@ï¿½qï¿½ï¿½ï¿½X
 	 */
 	private String Barcode1;
 	
 	/**
 	 * Barcode2
-	 * ±ø½X²Ä¤G¬q¸¹½X
+	 * ï¿½ï¿½ï¿½Xï¿½Ä¤Gï¿½qï¿½ï¿½ï¿½X
 	 */
 	private String Barcode2;
 	
 	/**
 	 * Barcode3
-	 * ±ø½X²Ä¤T¬q¸¹½X
+	 * ï¿½ï¿½ï¿½Xï¿½Ä¤Tï¿½qï¿½ï¿½ï¿½X
 	 */
 	private String Barcode3;
 	
 	/**
 	 * CheckMacValue
-	 * ÀË¬d½X
+	 * ï¿½Ë¬dï¿½X
 	 */
 	private String CheckMacValue;
 	
 	/**
 	 * PaymentNo
-	 * Ãº¶O¥N½X
+	 * Ãºï¿½Oï¿½Nï¿½X
 	 */
 	private String PaymentNo;
 	
 	/**
 	 * ExpireDate
-	 * Ãº¶O´Á­­
+	 * Ãºï¿½Oï¿½ï¿½ï¿½ï¿½
 	 */
 	private String ExpireDate;
 	
 	/********************* getters and setters *********************/
 
 	/**
-	 * ¨ú±oMerchantID ·|­û½s¸¹
+	 * ï¿½ï¿½ï¿½oMerchantID ï¿½|ï¿½ï¿½ï¿½sï¿½ï¿½
 	 * @return MerchantID
 	 */
 	public String getMerchantID() {
@@ -114,7 +114,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ³]©wMerchantID ·|­û½s¸¹
+	 * ï¿½]ï¿½wMerchantID ï¿½|ï¿½ï¿½ï¿½sï¿½ï¿½
 	 * @param merchantID
 	 */
 	public void setMerchantID(String merchantID) {
@@ -122,7 +122,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ¨ú±oMerchantTradeNo ·|­û¥æ©ö½s¸¹
+	 * ï¿½ï¿½ï¿½oMerchantTradeNo ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½
 	 * @return MerchantTradeNo
 	 */
 	public String getMerchantTradeNo() {
@@ -130,7 +130,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ³]©wMerchantTradeNo ·|­û¥æ©ö½s¸¹
+	 * ï¿½]ï¿½wMerchantTradeNo ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½
 	 * @param merchantTradeNo
 	 */
 	public void setMerchantTradeNo(String merchantTradeNo) {
@@ -138,7 +138,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ¨ú±oRtnCode ¥æ©öª¬ºA
+	 * ï¿½ï¿½ï¿½oRtnCode ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½A
 	 * @return RtnCode
 	 */
 	public String getRtnCode() {
@@ -146,7 +146,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ³]©wRtnCode ¥æ©öª¬ºA
+	 * ï¿½]ï¿½wRtnCode ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½A
 	 * @param rtnCode
 	 */
 	public void setRtnCode(String rtnCode) {
@@ -154,7 +154,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ¨ú±oRtnMsg ¥æ©ö°T®§
+	 * ï¿½ï¿½ï¿½oRtnMsg ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½
 	 * @return RtnMsg
 	 */
 	public String getRtnMsg() {
@@ -162,7 +162,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ³]©wRtnMsg ¥æ©ö°T®§
+	 * ï¿½]ï¿½wRtnMsg ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½
 	 * @param rtnMsg
 	 */
 	public void setRtnMsg(String rtnMsg) {
@@ -170,7 +170,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ¨ú±oTradeNo allPayªº¥æ©ö½s¸¹
+	 * ï¿½ï¿½ï¿½oTradeNo allPayï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½
 	 * @return TradeNo
 	 */
 	public String getTradeNo() {
@@ -178,7 +178,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ³]©wTradeNo allPayªº¥æ©ö½s¸¹
+	 * ï¿½]ï¿½wTradeNo allPayï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½
 	 * @param tradeNo
 	 */
 	public void setTradeNo(String tradeNo) {
@@ -186,7 +186,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ¨ú±oTradeAmt ¥æ©öª÷ÃB
+	 * ï¿½ï¿½ï¿½oTradeAmt ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 	 * @return TradeAmt
 	 */
 	public String getTradeAmt() {
@@ -194,7 +194,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ³]©wTradeAmt ¥æ©öª÷ÃB
+	 * ï¿½]ï¿½wTradeAmt ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 	 * @param tradeAmt
 	 */
 	public void setTradeAmt(String tradeAmt) {
@@ -202,7 +202,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ¨ú±oPaymentType ·|­û¿ï¾Üªº¥I´Ú¤è¦¡
+	 * ï¿½ï¿½ï¿½oPaymentType ï¿½|ï¿½ï¿½ï¿½ï¿½Üªï¿½ï¿½Iï¿½Ú¤è¦¡
 	 * @return PaymentType
 	 */
 	public String getPaymentType() {
@@ -210,7 +210,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ³]©wPaymentType ·|­û¿ï¾Üªº¥I´Ú¤è¦¡
+	 * ï¿½]ï¿½wPaymentType ï¿½|ï¿½ï¿½ï¿½ï¿½Üªï¿½ï¿½Iï¿½Ú¤è¦¡
 	 * @param paymentType
 	 */
 	public void setPaymentType(String paymentType) {
@@ -218,7 +218,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ¨ú±oTradeDate ­q³æ¦¨¥ß®É¶¡
+	 * ï¿½ï¿½ï¿½oTradeDate ï¿½qï¿½æ¦¨ï¿½ß®É¶ï¿½
 	 * @return TradeDate
 	 */
 	public String getTradeDate() {
@@ -226,7 +226,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ³]©wTradeDate ­q³æ¦¨¥ß®É¶¡
+	 * ï¿½]ï¿½wTradeDate ï¿½qï¿½æ¦¨ï¿½ß®É¶ï¿½
 	 * @param tradeDate
 	 */
 	public void setTradeDate(String tradeDate) {
@@ -234,7 +234,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ¨ú±oCheckMacValue ÀË¬d½X
+	 * ï¿½ï¿½ï¿½oCheckMacValue ï¿½Ë¬dï¿½X
 	 * @return CheckMacValue
 	 */
 	public String getCheckMacValue() {
@@ -242,7 +242,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ³]©wCheckMacValue ÀË¬d½X
+	 * ï¿½]ï¿½wCheckMacValue ï¿½Ë¬dï¿½X
 	 * @param checkMacValue
 	 */
 	public void setCheckMacValue(String checkMacValue) {
@@ -250,7 +250,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ¨ú±oPaymentNo Ãº¶O¥N½X
+	 * ï¿½ï¿½ï¿½oPaymentNo Ãºï¿½Oï¿½Nï¿½X
 	 * @return PaymentNo
 	 */
 	public String getPaymentNo() {
@@ -258,7 +258,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ³]©wPaymentNo Ãº¶O¥N½X
+	 * ï¿½]ï¿½wPaymentNo Ãºï¿½Oï¿½Nï¿½X
 	 * @param paymentNo
 	 */
 	public void setPaymentNo(String paymentNo) {
@@ -266,7 +266,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ¨ú±oExpireDate Ãº¶O´Á­­
+	 * ï¿½ï¿½ï¿½oExpireDate Ãºï¿½Oï¿½ï¿½ï¿½ï¿½
 	 * @return ExpireDate
 	 */
 	public String getExpireDate() {
@@ -274,7 +274,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ³]©wExpireDate Ãº¶O´Á­­
+	 * ï¿½]ï¿½wExpireDate Ãºï¿½Oï¿½ï¿½ï¿½ï¿½
 	 * @param expireDate
 	 */
 	public void setExpireDate(String expireDate) {
@@ -282,7 +282,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ¨ú±oBarcode1 ±ø½X²Ä¤@¬q¸¹½X
+	 * ï¿½ï¿½ï¿½oBarcode1 ï¿½ï¿½ï¿½Xï¿½Ä¤@ï¿½qï¿½ï¿½ï¿½X
 	 * @return Barcode1
 	 */
 	public String getBarcode1() {
@@ -290,7 +290,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ³]©wBarcode1 ±ø½X²Ä¤@¬q¸¹½X
+	 * ï¿½]ï¿½wBarcode1 ï¿½ï¿½ï¿½Xï¿½Ä¤@ï¿½qï¿½ï¿½ï¿½X
 	 * @param barcode1
 	 */
 	public void setBarcode1(String barcode1) {
@@ -298,7 +298,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ¨ú±oBarcode2 ±ø½X²Ä¤G¬q¸¹½X
+	 * ï¿½ï¿½ï¿½oBarcode2 ï¿½ï¿½ï¿½Xï¿½Ä¤Gï¿½qï¿½ï¿½ï¿½X
 	 * @return Barcode2
 	 */
 	public String getBarcode2() {
@@ -306,7 +306,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ³]©wBarcode2 ±ø½X²Ä¤G¬q¸¹½X
+	 * ï¿½]ï¿½wBarcode2 ï¿½ï¿½ï¿½Xï¿½Ä¤Gï¿½qï¿½ï¿½ï¿½X
 	 * @param barcode2
 	 */
 	public void setBarcode2(String barcode2) {
@@ -314,7 +314,7 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ¨ú±oBarcode3 ±ø½X²Ä¤T¬q¸¹½X
+	 * ï¿½ï¿½ï¿½oBarcode3 ï¿½ï¿½ï¿½Xï¿½Ä¤Tï¿½qï¿½ï¿½ï¿½X
 	 * @return Barcode3
 	 */
 	public String getBarcode3() {
@@ -322,35 +322,35 @@ public class CVSRequestObj {
 	}
 
 	/**
-	 * ³]©wBarcode3 ±ø½X²Ä¤T¬q¸¹½X
+	 * ï¿½]ï¿½wBarcode3 ï¿½ï¿½ï¿½Xï¿½Ä¤Tï¿½qï¿½ï¿½ï¿½X
 	 * @param barcode3
 	 */
 	public void setBarcode3(String barcode3) {
 		Barcode3 = barcode3;
 	}
 	/**
-	 * ¨ú±oPayAmt ¹ê»Ú¥I´Úª÷ÃB
+	 * ï¿½ï¿½ï¿½oPayAmt ï¿½ï¿½Ú¥Iï¿½Úªï¿½ï¿½B
 	 * @return PayAmt
 	 */
 	public String getPayAmt() {
 		return PayAmt;
 	}
 	/**
-	 * ³]©wPayAmt ¹ê»Ú¥I´Úª÷ÃB
+	 * ï¿½]ï¿½wPayAmt ï¿½ï¿½Ú¥Iï¿½Úªï¿½ï¿½B
 	 * @param payAmt
 	 */
 	public void setPayAmt(String payAmt) {
 		PayAmt = payAmt;
 	}
 	/**
-	 * ¨ú±oRedeemAmt §é©èª÷ÃB
+	 * ï¿½ï¿½ï¿½oRedeemAmt ï¿½ï¿½ï¿½ï¿½ï¿½B
 	 * @return RedeemAmt
 	 */
 	public String getRedeemAmt() {
 		return RedeemAmt;
 	}
 	/**
-	 * ³]©wRedeemAmt §é©èª÷ÃB
+	 * ï¿½]ï¿½wRedeemAmt ï¿½ï¿½ï¿½ï¿½ï¿½B
 	 * @param redeemAmt
 	 */
 	public void setRedeemAmt(String redeemAmt) {

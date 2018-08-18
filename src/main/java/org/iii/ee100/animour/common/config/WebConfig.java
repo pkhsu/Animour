@@ -1,4 +1,4 @@
-﻿package org.iii.ee100.animour.common.config;
+package org.iii.ee100.animour.common.config;
 
 import org.iii.ee100.animour.common.security.AnimourUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;

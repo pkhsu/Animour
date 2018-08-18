@@ -1,7 +1,7 @@
 package allPay.payment.integration.domain;
 
 /**
- * ·íChoosePayment¬°ATM®Éªº¨ú¸¹µ²ªG³qª¾ª«¥ó
+ * ï¿½ï¿½ChoosePaymentï¿½ï¿½ATMï¿½Éªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Gï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  * @author mark.chiu
  *
  */
@@ -9,341 +9,341 @@ public class ATMRequestObj {
 	
 	/**
 	 * MerchantID
-	 * ·|­û½s¸¹
+	 * ï¿½|ï¿½ï¿½ï¿½sï¿½ï¿½
 	 */
 	private String MerchantID;
 	
 	/**
 	 * MerchantTradeNo
-	 * ·|­û¥æ©ö½s¸¹
+	 * ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½
 	 */
 	private String MerchantTradeNo;
 	
 	/**
 	 * RtnCode
-	 * ¥æ©öª¬ºA
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½A
 	 */
 	private String RtnCode;
 	
 	/**
 	 * RtnMsg
-	 * ¥æ©ö°T®§
+	 * ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½
 	 */
 	private String RtnMsg;
 	
 	/**
 	 * TradeNo
-	 * allPayªº¥æ©ö½s¸¹
+	 * allPayï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½
 	 */
 	private String TradeNo;
 	
 	/**
 	 * TradeAmt
-	 * ¥æ©öª÷ÃB
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 	 */
 	private String TradeAmt;
 	
 	/**
 	 * PayAmt
-	 * ¹ê»Ú¥I´Úª÷ÃB
+	 * ï¿½ï¿½Ú¥Iï¿½Úªï¿½ï¿½B
 	 */
 	private String PayAmt;
 	
 	/**
 	 * RedeemAmt
-	 * §é©èª÷ÃB
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½B
 	 */
 	private String RedeemAmt;
 	
 	/**
 	 * PaymentType
-	 * ·|­û¿ï¾Üªº¥I´Ú¤è¦¡
+	 * ï¿½|ï¿½ï¿½ï¿½ï¿½Üªï¿½ï¿½Iï¿½Ú¤è¦¡
 	 */
 	private String PaymentType;
 	
 	/**
 	 * TradeDate
-	 * ­q³æ¦¨¥ß®É¶¡
+	 * ï¿½qï¿½æ¦¨ï¿½ß®É¶ï¿½
 	 */
 	private String TradeDate;
 	
 	/**
 	 * Barcode1
-	 * ±ø½X²Ä¤@¬q¸¹½X
+	 * ï¿½ï¿½ï¿½Xï¿½Ä¤@ï¿½qï¿½ï¿½ï¿½X
 	 */
 	private String Barcode1;
 	
 	/**
 	 * Barcode2
-	 * ±ø½X²Ä¤G¬q¸¹½X
+	 * ï¿½ï¿½ï¿½Xï¿½Ä¤Gï¿½qï¿½ï¿½ï¿½X
 	 */
 	private String Barcode2;
 	
 	/**
 	 * Barcode3
-	 * ±ø½X²Ä¤T¬q¸¹½X
+	 * ï¿½ï¿½ï¿½Xï¿½Ä¤Tï¿½qï¿½ï¿½ï¿½X
 	 */
 	private String Barcode3;
 	
 	/**
 	 * CheckMacValue
-	 * ÀË¬d½X
+	 * ï¿½Ë¬dï¿½X
 	 */
 	private String CheckMacValue;
 	
 	/**
 	 * BankCode
-	 * Ãº¶O»È¦æ¥N½X
+	 * Ãºï¿½Oï¿½È¦ï¿½Nï¿½X
 	 */
 	private String BankCode;
 	
 	/**
 	 * vAccount
-	 * Ãº¶OµêÀÀ±b¸¹
+	 * Ãºï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½bï¿½ï¿½
 	 */
 	private String vAccount;
 	
 	/**
 	 * ExpireDate
-	 * Ãº¶O´Á­­
+	 * Ãºï¿½Oï¿½ï¿½ï¿½ï¿½
 	 */
 	private String ExpireDate;
 	
 	/********************* getters and setters *********************/
 	
 	/**
-	 * ¨ú±oMerchantID ·|­û½s¸¹
+	 * ï¿½ï¿½ï¿½oMerchantID ï¿½|ï¿½ï¿½ï¿½sï¿½ï¿½
 	 * @return MerchantID
 	 */
 	public String getMerchantID() {
 		return MerchantID;
 	}
 	/**
-	 * ³]©wMerchantID ·|­û½s¸¹
+	 * ï¿½]ï¿½wMerchantID ï¿½|ï¿½ï¿½ï¿½sï¿½ï¿½
 	 * @param merchantID
 	 */
 	public void setMerchantID(String merchantID) {
 		MerchantID = merchantID;
 	}
 	/**
-	 * ¨ú±oMerchantTradeNo ·|­û¥æ©ö½s¸¹¡A­q³æ²£¥Í®É¶Ç°eµ¹O¡¦Payªº·|­û¥æ©ö½s¸¹¡C
+	 * ï¿½ï¿½ï¿½oMerchantTradeNo ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Aï¿½qï¿½æ²£ï¿½Í®É¶Ç°eï¿½ï¿½Oï¿½ï¿½Payï¿½ï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½C
 	 * @return MerchantTradeNo
 	 */
 	public String getMerchantTradeNo() {
 		return MerchantTradeNo;
 	}
 	/**
-	 * ³]©wMerchantTradeNo ·|­û¥æ©ö½s¸¹¡A­q³æ²£¥Í®É¶Ç°eµ¹O¡¦Payªº·|­û¥æ©ö½s¸¹¡C
+	 * ï¿½]ï¿½wMerchantTradeNo ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Aï¿½qï¿½æ²£ï¿½Í®É¶Ç°eï¿½ï¿½Oï¿½ï¿½Payï¿½ï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½C
 	 * @param MerchantTradeNo
 	 */
 	public void setMerchantTradeNo(String merchantTradeNo) {
 		MerchantTradeNo = merchantTradeNo;
 	}
 	/**
-	 * ¨ú±oRtnCode ¥æ©öª¬ºA
+	 * ï¿½ï¿½ï¿½oRtnCode ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½A
 	 * @return RtnCode
 	 */
 	public String getRtnCode() {
 		return RtnCode;
 	}
 	/**
-	 * ³]©wRtnCode ¥æ©öª¬ºA
+	 * ï¿½]ï¿½wRtnCode ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½A
 	 * @param RtnCode
 	 */
 	public void setRtnCode(String rtnCode) {
 		RtnCode = rtnCode;
 	}
 	/**
-	 * ¨ú±oRtnMsg ¥æ©ö°T®§
+	 * ï¿½ï¿½ï¿½oRtnMsg ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½
 	 * @return RtnMsg
 	 */
 	public String getRtnMsg() {
 		return RtnMsg;
 	}
 	/**
-	 * ³]©wRtnMsg ¥æ©ö°T®§
+	 * ï¿½]ï¿½wRtnMsg ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½
 	 * @param RtnMsg
 	 */
 	public void setRtnMsg(String rtnMsg) {
 		RtnMsg = rtnMsg;
 	}
 	/**
-	 * ¨ú±oTradeNo allPayªº¥æ©ö½s¸¹
+	 * ï¿½ï¿½ï¿½oTradeNo allPayï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½
 	 * @return TradeNo
 	 */
 	public String getTradeNo() {
 		return TradeNo;
 	}
 	/**
-	 * ³]©wTradeNo allPayªº¥æ©ö½s¸¹
+	 * ï¿½]ï¿½wTradeNo allPayï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½
 	 * @param TradeNo
 	 */
 	public void setTradeNo(String tradeNo) {
 		TradeNo = tradeNo;
 	}
 	/**
-	 * ¨ú±oTradeAmt ¥æ©öª÷ÃB
+	 * ï¿½ï¿½ï¿½oTradeAmt ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 	 * @return TradeAmt
 	 */
 	public String getTradeAmt() {
 		return TradeAmt;
 	}
 	/**
-	 * ³]©wTradeAmt ¥æ©öª÷ÃB
+	 * ï¿½]ï¿½wTradeAmt ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 	 * @param TradeAmt
 	 */
 	public void setTradeAmt(String tradeAmt) {
 		TradeAmt = tradeAmt;
 	}
 	/**
-	 * ¨ú±oPaymentType ·|­û¿ï¾Üªº¥I´Ú¤è¦¡
+	 * ï¿½ï¿½ï¿½oPaymentType ï¿½|ï¿½ï¿½ï¿½ï¿½Üªï¿½ï¿½Iï¿½Ú¤è¦¡
 	 * @return PaymentType
 	 */
 	public String getPaymentType() {
 		return PaymentType;
 	}
 	/**
-	 * ³]©wPaymentType ·|­û¿ï¾Üªº¥I´Ú¤è¦¡
+	 * ï¿½]ï¿½wPaymentType ï¿½|ï¿½ï¿½ï¿½ï¿½Üªï¿½ï¿½Iï¿½Ú¤è¦¡
 	 * @param PaymentType
 	 */
 	public void setPaymentType(String paymentType) {
 		PaymentType = paymentType;
 	}
 	/**
-	 * ¨ú±oTradeDate ­q³æ¦¨¥ß®É¶¡
+	 * ï¿½ï¿½ï¿½oTradeDate ï¿½qï¿½æ¦¨ï¿½ß®É¶ï¿½
 	 * @return TradeDate
 	 */
 	public String getTradeDate() {
 		return TradeDate;
 	}
 	/**
-	 * ³]©wTradeDate ­q³æ¦¨¥ß®É¶¡
+	 * ï¿½]ï¿½wTradeDate ï¿½qï¿½æ¦¨ï¿½ß®É¶ï¿½
 	 * @param TradeDate
 	 */
 	public void setTradeDate(String tradeDate) {
 		TradeDate = tradeDate;
 	}
 	/**
-	 * ¨ú±oCheckMacValue ÀË¬d½X
+	 * ï¿½ï¿½ï¿½oCheckMacValue ï¿½Ë¬dï¿½X
 	 * @return CheckMacValue
 	 */
 	public String getCheckMacValue() {
 		return CheckMacValue;
 	}
 	/**
-	 * ³]©wCheckMacValue ÀË¬d½X
+	 * ï¿½]ï¿½wCheckMacValue ï¿½Ë¬dï¿½X
 	 * @param CheckMacValue
 	 */
 	public void setCheckMacValue(String checkMacValue) {
 		CheckMacValue = checkMacValue;
 	}
 	/**
-	 * ¨ú±oBankCode Ãº¶O»È¦æ¥N½X
+	 * ï¿½ï¿½ï¿½oBankCode Ãºï¿½Oï¿½È¦ï¿½Nï¿½X
 	 * @return BankCode
 	 */
 	public String getBankCode() {
 		return BankCode;
 	}
 	/**
-	 * ³]©wBankCode Ãº¶O»È¦æ¥N½X
+	 * ï¿½]ï¿½wBankCode Ãºï¿½Oï¿½È¦ï¿½Nï¿½X
 	 * @param BankCode
 	 */
 	public void setBankCode(String bankCode) {
 		BankCode = bankCode;
 	}
 	/**
-	 * ¨ú±ovAccount Ãº¶OµêÀÀ±b¸¹
+	 * ï¿½ï¿½ï¿½ovAccount Ãºï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½bï¿½ï¿½
 	 * @return vAccount
 	 */
 	public String getvAccount() {
 		return vAccount;
 	}
 	/**
-	 * ³]©wvAccount Ãº¶OµêÀÀ±b¸¹
+	 * ï¿½]ï¿½wvAccount Ãºï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½bï¿½ï¿½
 	 * @param vAccount
 	 */
 	public void setvAccount(String vAccount) {
 		this.vAccount = vAccount;
 	}
 	/**
-	 * ¨ú±oExpireDate Ãº¶O´Á­­
+	 * ï¿½ï¿½ï¿½oExpireDate Ãºï¿½Oï¿½ï¿½ï¿½ï¿½
 	 * @return ExpireDate
 	 */
 	public String getExpireDate() {
 		return ExpireDate;
 	}
 	/**
-	 * ³]©wExpireDate Ãº¶O´Á­­
+	 * ï¿½]ï¿½wExpireDate Ãºï¿½Oï¿½ï¿½ï¿½ï¿½
 	 * @param ExpireDate
 	 */
 	public void setExpireDate(String expireDate) {
 		ExpireDate = expireDate;
 	}
 	/**
-	 * ¨ú±oPayAmt ¹ê»Ú¥I´Úª÷ÃB
+	 * ï¿½ï¿½ï¿½oPayAmt ï¿½ï¿½Ú¥Iï¿½Úªï¿½ï¿½B
 	 * @return PayAmt
 	 */
 	public String getPayAmt() {
 		return PayAmt;
 	}
 	/**
-	 * ³]©wPayAmt ¹ê»Ú¥I´Úª÷ÃB
+	 * ï¿½]ï¿½wPayAmt ï¿½ï¿½Ú¥Iï¿½Úªï¿½ï¿½B
 	 * @param payAmt
 	 */
 	public void setPayAmt(String payAmt) {
 		PayAmt = payAmt;
 	}
 	/**
-	 * ¨ú±oRedeemAmt §é©èª÷ÃB
+	 * ï¿½ï¿½ï¿½oRedeemAmt ï¿½ï¿½ï¿½ï¿½ï¿½B
 	 * @return RedeemAmt
 	 */
 	public String getRedeemAmt() {
 		return RedeemAmt;
 	}
 	/**
-	 * ³]©wRedeemAmt §é©èª÷ÃB
+	 * ï¿½]ï¿½wRedeemAmt ï¿½ï¿½ï¿½ï¿½ï¿½B
 	 * @param redeemAmt
 	 */
 	public void setRedeemAmt(String redeemAmt) {
 		RedeemAmt = redeemAmt;
 	}
 	/**
-	 * ¨ú±oBarcode1 ±ø½X²Ä¤@¬q¸¹½X
+	 * ï¿½ï¿½ï¿½oBarcode1 ï¿½ï¿½ï¿½Xï¿½Ä¤@ï¿½qï¿½ï¿½ï¿½X
 	 * @return Barcode1
 	 */
 	public String getBarcode1() {
 		return Barcode1;
 	}
 	/**
-	 * ³]©wBarcode1 ±ø½X²Ä¤@¬q¸¹½X
+	 * ï¿½]ï¿½wBarcode1 ï¿½ï¿½ï¿½Xï¿½Ä¤@ï¿½qï¿½ï¿½ï¿½X
 	 * @param barcode1
 	 */
 	public void setBarcode1(String barcode1) {
 		Barcode1 = barcode1;
 	}
 	/**
-	 * ¨ú±oBarcode2 ±ø½X²Ä¤G¬q¸¹½X
+	 * ï¿½ï¿½ï¿½oBarcode2 ï¿½ï¿½ï¿½Xï¿½Ä¤Gï¿½qï¿½ï¿½ï¿½X
 	 * @return Barcode2
 	 */
 	public String getBarcode2() {
 		return Barcode2;
 	}
 	/**
-	 * ³]©wBarcode2 ±ø½X²Ä¤G¬q¸¹½X
+	 * ï¿½]ï¿½wBarcode2 ï¿½ï¿½ï¿½Xï¿½Ä¤Gï¿½qï¿½ï¿½ï¿½X
 	 * @param barcode2
 	 */
 	public void setBarcode2(String barcode2) {
 		Barcode2 = barcode2;
 	}
 	/**
-	 * ¨ú±oBarcode3 ±ø½X²Ä¤T¬q¸¹½X
+	 * ï¿½ï¿½ï¿½oBarcode3 ï¿½ï¿½ï¿½Xï¿½Ä¤Tï¿½qï¿½ï¿½ï¿½X
 	 * @return Barcode3
 	 */
 	public String getBarcode3() {
 		return Barcode3;
 	}
 	/**
-	 * ³]©wBarcode3 ±ø½X²Ä¤T¬q¸¹½X
+	 * ï¿½]ï¿½wBarcode3 ï¿½ï¿½ï¿½Xï¿½Ä¤Tï¿½qï¿½ï¿½ï¿½X
 	 * @param barcode3
 	 */
 	public void setBarcode3(String barcode3) {

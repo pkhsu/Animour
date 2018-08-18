@@ -1,7 +1,7 @@
 package allPay.payment.integration.domain;
 
 /**
- * «H¥Î¥d©w´Á©wÃB­q³æ¬d¸ßª«¥ó
+ * ï¿½Hï¿½Î¥dï¿½wï¿½ï¿½ï¿½wï¿½Bï¿½qï¿½ï¿½dï¿½ßªï¿½ï¿½ï¿½
  * @author mark.chiu
  *
  */
@@ -9,61 +9,61 @@ public class QueryCreditCardPeriodInfoObj {
 	
 	/**
 	 * MerchantID
-	 * ·|­û½s¸¹
+	 * ï¿½|ï¿½ï¿½ï¿½sï¿½ï¿½
 	 */
 	private String MerchantID = "";
 	
 	/**
 	 * MerchantTradeNo
-	 * ·|­û¥æ©ö½s¸¹
+	 * ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½
 	 */
 	private String MerchantTradeNo = "";
 	
 	/**
 	 * TimeStamp
-	 * ÅçÃÒ®É¶¡
+	 * ï¿½ï¿½ï¿½Ò®É¶ï¿½
 	 */
 	private String TimeStamp = "";
 	
 	/********************* getters and setters *********************/
 	
 	/**
-	 * ¨ú±oMerchantID ·|­û½s¸¹
+	 * ï¿½ï¿½ï¿½oMerchantID ï¿½|ï¿½ï¿½ï¿½sï¿½ï¿½
 	 * @return MerchantID
 	 */
 	public String getMerchantID() {
 		return MerchantID;
 	}
 	/**
-	 * ³]©wMerchantID ·|­û½s¸¹
+	 * ï¿½]ï¿½wMerchantID ï¿½|ï¿½ï¿½ï¿½sï¿½ï¿½
 	 * @param merchantID
 	 */
 	public void setMerchantID(String merchantID) {
 		MerchantID = merchantID;
 	}
 	/**
-	 * ¨ú±oMerchantTradeNo ·|­û¥æ©ö½s¸¹¡A­q³æ²£¥Í®É¶Ç°eµ¹O¡¦Payªº·|­û¥æ©ö½s¸¹¡C
+	 * ï¿½ï¿½ï¿½oMerchantTradeNo ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Aï¿½qï¿½æ²£ï¿½Í®É¶Ç°eï¿½ï¿½Oï¿½ï¿½Payï¿½ï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½C
 	 * @return MerchantTradeNo
 	 */
 	public String getMerchantTradeNo() {
 		return MerchantTradeNo;
 	}
 	/**
-	 * ³]©wMerchantTradeNo ·|­û¥æ©ö½s¸¹¡A­q³æ²£¥Í®É¶Ç°eµ¹O¡¦Payªº·|­û¥æ©ö½s¸¹¡C
+	 * ï¿½]ï¿½wMerchantTradeNo ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Aï¿½qï¿½æ²£ï¿½Í®É¶Ç°eï¿½ï¿½Oï¿½ï¿½Payï¿½ï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½C
 	 * @param merchantTradeNo
 	 */
 	public void setMerchantTradeNo(String merchantTradeNo) {
 		MerchantTradeNo = merchantTradeNo;
 	}
 	/**
-	 * ¨ú±oTimeStamp ÅçÃÒ®É¶¡
+	 * ï¿½ï¿½ï¿½oTimeStamp ï¿½ï¿½ï¿½Ò®É¶ï¿½
 	 * @return TimeStamp
 	 */
 	public String getTimeStamp() {
 		return TimeStamp;
 	}
 	/**
-	 * ³]©wTimeStamp ÅçÃÒ®É¶¡
+	 * ï¿½]ï¿½wTimeStamp ï¿½ï¿½ï¿½Ò®É¶ï¿½
 	 * @param timeStamp
 	 */
 	public void setTimeStamp(String timeStamp) {

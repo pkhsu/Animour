@@ -1,7 +1,7 @@
 package allPay.payment.integration.domain;
 
 /**
- * ¤U¸ü·|­û¹ï±b´CÅéÀÉª«¥ó
+ * ï¿½Uï¿½ï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½bï¿½Cï¿½ï¿½ï¿½Éªï¿½ï¿½ï¿½
  * @author mark.chiu
  *
  */
@@ -9,229 +9,229 @@ public class TradeNoAioObj {
 	
 	/**
 	 * MerchantID
-	 * ·|­û½s¸¹(¥ÑallPay´£¨Ñ)
+	 * ï¿½|ï¿½ï¿½ï¿½sï¿½ï¿½(ï¿½ï¿½allPayï¿½ï¿½ï¿½ï¿½)
 	 */
 	private String MerchantID = "";
 	
 	/**
 	 * DateType
-	 * ¬d¸ß¤é´ÁÃþ§O
+	 * ï¿½dï¿½ß¤ï¿½ï¿½ï¿½ï¿½ï¿½O
 	 */
 	private String DateType = "";
 	
 	/**
 	 * BeginDate
-	 * ¬d¸ß¶}©l¤é´Á
+	 * ï¿½dï¿½ß¶}ï¿½lï¿½ï¿½ï¿½
 	 */
 	private String BeginDate = "";
 	
 	/**
 	 * EndDate
-	 * ¬d¸ßµ²§ô¤é´Á
+	 * ï¿½dï¿½ßµï¿½ï¿½ï¿½ï¿½ï¿½
 	 */
 	private String EndDate = "";
 	
 	/**
 	 * PaymentType
-	 * ¥I´Ú¤è¦¡
+	 * ï¿½Iï¿½Ú¤è¦¡
 	 */
 	private String PaymentType = "";
 	
 	/**
 	 * PlatformStatus
-	 * ­q³æÃþ«¬
+	 * ï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 */
 	private String PlatformStatus = "";
 	
 	/**
 	 * PaymentStatus
-	 * ¥I´Úª¬ºA
+	 * ï¿½Iï¿½Úªï¿½ï¿½A
 	 */
 	private String PaymentStatus = "";
 	
 	/**
 	 * AllocateStatus
-	 * ¼·´Úª¬ºA
+	 * ï¿½ï¿½ï¿½Úªï¿½ï¿½A
 	 */
 	private String AllocateStatus = "";
 	
 	/**
 	 * MediaFormated
-	 * CSV®æ¦¡
+	 * CSVï¿½æ¦¡
 	 */
 	private String MediaFormated = "";
 	
 	/********************* getters and setters *********************/
 	
 	/**
-	 * ¨ú±oMerchantID ·|­û½s¸¹(¥ÑO¡¦Pay´£¨Ñ)
+	 * ï¿½ï¿½ï¿½oMerchantID ï¿½|ï¿½ï¿½ï¿½sï¿½ï¿½(ï¿½ï¿½Oï¿½ï¿½Payï¿½ï¿½ï¿½ï¿½)
 	 * @return MerchantID
 	 */
 	public String getMerchantID() {
 		return MerchantID;
 	}
 	/**
-	 * ³]©wMerchantID ·|­û½s¸¹(¥ÑO¡¦Pay´£¨Ñ)
+	 * ï¿½]ï¿½wMerchantID ï¿½|ï¿½ï¿½ï¿½sï¿½ï¿½(ï¿½ï¿½Oï¿½ï¿½Payï¿½ï¿½ï¿½ï¿½)
 	 * @param merchantID
 	 */
 	public void setMerchantID(String merchantID) {
 		MerchantID = merchantID;
 	}
 	/**
-	 * ¨ú±oDateType ¬d¸ß¤é´ÁÃþ§O¡A­n¬d¸ßªº¤é´ÁÃþ§O
-	 * ­Y¬°¬d¸ß¥I´Ú¤é´Á®É¡A«h°Ñ¼Æ½Ð±a¢±
-	 * ­Y¬°¬d¸ß¼·´Ú¤é´Á®É¡A«h°Ñ¼Æ½Ð±a¢³
-	 * ­Y¬°¬d¸ß°h´Ú¤é´Á®É¡A«h°Ñ¼Æ½Ð±a¢´
-	 * ­Y¬°¬d¸ß­q³æ¤é´Á®É¡A«h°Ñ¼Æ½Ð±a¢µ
+	 * ï¿½ï¿½ï¿½oDateType ï¿½dï¿½ß¤ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½Aï¿½nï¿½dï¿½ßªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½O
+	 * ï¿½Yï¿½ï¿½ï¿½dï¿½ß¥Iï¿½Ú¤ï¿½ï¿½ï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±aï¿½ï¿½
+	 * ï¿½Yï¿½ï¿½ï¿½dï¿½ß¼ï¿½ï¿½Ú¤ï¿½ï¿½ï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±aï¿½ï¿½
+	 * ï¿½Yï¿½ï¿½ï¿½dï¿½ß°hï¿½Ú¤ï¿½ï¿½ï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±aï¿½ï¿½
+	 * ï¿½Yï¿½ï¿½ï¿½dï¿½ß­qï¿½ï¿½ï¿½ï¿½ï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±aï¿½ï¿½
 	 * @return DateType
 	 */
 	public String getDateType() {
 		return DateType;
 	}
 	/**
-	 * ³]©wDateType ¬d¸ß¤é´ÁÃþ§O¡A­n¬d¸ßªº¤é´ÁÃþ§O
-	 * ­Y¬°¬d¸ß¥I´Ú¤é´Á®É¡A«h°Ñ¼Æ½Ð±a¢±
-	 * ­Y¬°¬d¸ß¼·´Ú¤é´Á®É¡A«h°Ñ¼Æ½Ð±a¢³
-	 * ­Y¬°¬d¸ß°h´Ú¤é´Á®É¡A«h°Ñ¼Æ½Ð±a¢´
-	 * ­Y¬°¬d¸ß­q³æ¤é´Á®É¡A«h°Ñ¼Æ½Ð±a¢µ
+	 * ï¿½]ï¿½wDateType ï¿½dï¿½ß¤ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½Aï¿½nï¿½dï¿½ßªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½O
+	 * ï¿½Yï¿½ï¿½ï¿½dï¿½ß¥Iï¿½Ú¤ï¿½ï¿½ï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±aï¿½ï¿½
+	 * ï¿½Yï¿½ï¿½ï¿½dï¿½ß¼ï¿½ï¿½Ú¤ï¿½ï¿½ï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±aï¿½ï¿½
+	 * ï¿½Yï¿½ï¿½ï¿½dï¿½ß°hï¿½Ú¤ï¿½ï¿½ï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±aï¿½ï¿½
+	 * ï¿½Yï¿½ï¿½ï¿½dï¿½ß­qï¿½ï¿½ï¿½ï¿½ï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±aï¿½ï¿½
 	 * @param dateType
 	 */
 	public void setDateType(String dateType) {
 		DateType = dateType;
 	}
 	/**
-	 * ¨ú±oBeginDate ¬d¸ß¶}©l¤é´Á¡A¤é´Á®æ¦¡¬°¡uyyyy-MM-dd¡v
+	 * ï¿½ï¿½ï¿½oBeginDate ï¿½dï¿½ß¶}ï¿½lï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½æ¦¡ï¿½ï¿½ï¿½uyyyy-MM-ddï¿½v
 	 * @return BeginDate
 	 */
 	public String getBeginDate() {
 		return BeginDate;
 	}
 	/**
-	 * ³]©wBeginDate ¬d¸ß¶}©l¤é´Á¡A¤é´Á®æ¦¡¬°¡uyyyy-MM-dd¡v
+	 * ï¿½]ï¿½wBeginDate ï¿½dï¿½ß¶}ï¿½lï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½æ¦¡ï¿½ï¿½ï¿½uyyyy-MM-ddï¿½v
 	 * @param beginDate
 	 */
 	public void setBeginDate(String beginDate) {
 		BeginDate = beginDate;
 	}
 	/**
-	 * ¨ú±oEndDate ¬d¸ßµ²§ô¤é´Á¡A¤é´Á®æ¦¡¬°¡uyyyy-MM-dd¡v
+	 * ï¿½ï¿½ï¿½oEndDate ï¿½dï¿½ßµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½æ¦¡ï¿½ï¿½ï¿½uyyyy-MM-ddï¿½v
 	 * @return EndDate
 	 */
 	public String getEndDate() {
 		return EndDate;
 	}
 	/**
-	 * ³]©wEndDate ¬d¸ßµ²§ô¤é´Á¡A¤é´Á®æ¦¡¬°¡uyyyy-MM-dd¡v
+	 * ï¿½]ï¿½wEndDate ï¿½dï¿½ßµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½æ¦¡ï¿½ï¿½ï¿½uyyyy-MM-ddï¿½v
 	 * @param endDate
 	 */
 	public void setEndDate(String endDate) {
 		EndDate = endDate;
 	}
 	/**
-	 * ¨ú±oPaymentType ¥I´Ú¤è¦¡¡A­n¬d¸ß­q³æªº¥I´Ú¤è¦¡ 
-	 * ­Y¬°«H¥Î¥d®É¡A«h°Ñ¼Æ½Ð±a01 
-	 * ­Y¬°ºô¸ôATM®É¡A«h°Ñ¼Æ½Ð±a02 
-	 * ­Y¬°ATM Âd­û¾÷®É¡A«h°Ñ¼Æ½Ð±a03 
-	 * ­Y¬°¶W°Ó¥N½X®É¡A«h°Ñ¼Æ½Ð±a04 
-	 * ­Y¬°°]¥I³q®É¡A«h°Ñ¼Æ½Ð±a07 
-	 * ­Y¬°«H¥Î¥d(OTP)®É¡A«h°Ñ¼Æ½Ð±a08 
-	 * ­Y¬°¼Ú¥IÄ_±b¤á®É¡A«h°Ñ¼Æ½Ð±a09 
-	 * ­Y¬°¥þ³¡®É¡A½Ð©¿²¤¦¹¤@°Ñ¼Æ
+	 * ï¿½ï¿½ï¿½oPaymentType ï¿½Iï¿½Ú¤è¦¡ï¿½Aï¿½nï¿½dï¿½ß­qï¿½æªºï¿½Iï¿½Ú¤è¦¡ 
+	 * ï¿½Yï¿½ï¿½ï¿½Hï¿½Î¥dï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±a01 
+	 * ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½ATMï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±a02 
+	 * ï¿½Yï¿½ï¿½ATM ï¿½dï¿½ï¿½ï¿½ï¿½ï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±a03 
+	 * ï¿½Yï¿½ï¿½ï¿½Wï¿½Ó¥Nï¿½Xï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±a04 
+	 * ï¿½Yï¿½ï¿½ï¿½]ï¿½Iï¿½qï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±a07 
+	 * ï¿½Yï¿½ï¿½ï¿½Hï¿½Î¥d(OTP)ï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±a08 
+	 * ï¿½Yï¿½ï¿½ï¿½Ú¥Iï¿½_ï¿½bï¿½ï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±a09 
+	 * ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¡Aï¿½Ð©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½Ñ¼ï¿½
 	 * @return PaymentType
 	 */
 	public String getPaymentType() {
 		return PaymentType;
 	}
 	/**
-	 * ³]©wPaymentType ¥I´Ú¤è¦¡¡A­n¬d¸ß­q³æªº¥I´Ú¤è¦¡ 
-	 * ­Y¬°«H¥Î¥d®É¡A«h°Ñ¼Æ½Ð±a01 
-	 * ­Y¬°ºô¸ôATM®É¡A«h°Ñ¼Æ½Ð±a02 
-	 * ­Y¬°ATM Âd­û¾÷®É¡A«h°Ñ¼Æ½Ð±a03 
-	 * ­Y¬°¶W°Ó¥N½X®É¡A«h°Ñ¼Æ½Ð±a04 
-	 * ­Y¬°°]¥I³q®É¡A«h°Ñ¼Æ½Ð±a07 
-	 * ­Y¬°«H¥Î¥d(OTP)®É¡A«h°Ñ¼Æ½Ð±a08 
-	 * ­Y¬°¼Ú¥IÄ_±b¤á®É¡A«h°Ñ¼Æ½Ð±a09 
-	 * ­Y¬°¥þ³¡®É¡A½Ð©¿²¤¦¹¤@°Ñ¼Æ
+	 * ï¿½]ï¿½wPaymentType ï¿½Iï¿½Ú¤è¦¡ï¿½Aï¿½nï¿½dï¿½ß­qï¿½æªºï¿½Iï¿½Ú¤è¦¡ 
+	 * ï¿½Yï¿½ï¿½ï¿½Hï¿½Î¥dï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±a01 
+	 * ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½ATMï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±a02 
+	 * ï¿½Yï¿½ï¿½ATM ï¿½dï¿½ï¿½ï¿½ï¿½ï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±a03 
+	 * ï¿½Yï¿½ï¿½ï¿½Wï¿½Ó¥Nï¿½Xï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±a04 
+	 * ï¿½Yï¿½ï¿½ï¿½]ï¿½Iï¿½qï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±a07 
+	 * ï¿½Yï¿½ï¿½ï¿½Hï¿½Î¥d(OTP)ï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±a08 
+	 * ï¿½Yï¿½ï¿½ï¿½Ú¥Iï¿½_ï¿½bï¿½ï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±a09 
+	 * ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¡Aï¿½Ð©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½Ñ¼ï¿½
 	 * @param paymentType
 	 */
 	public void setPaymentType(String paymentType) {
 		PaymentType = paymentType;
 	}
 	/**
-	 * ¨ú±oPlatformStatus ­q³æÃþ«¬¡A­n¬d¸ßªº­q³æÃþ«¬
-	 * ­Y¬°¤@¯ë®É¡A«h°Ñ¼Æ½Ð±a1
-	 * ­Y¬°¥­¥x®É¡A«h°Ñ¼Æ½Ð±a2
-	 * ­Y¬°¥þ³¡®É¡A½Ð©¿²¤¦¹¤@°Ñ¼Æ
+	 * ï¿½ï¿½ï¿½oPlatformStatus ï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½nï¿½dï¿½ßªï¿½ï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	 * ï¿½Yï¿½ï¿½ï¿½@ï¿½ï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±a1
+	 * ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½xï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±a2
+	 * ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¡Aï¿½Ð©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½Ñ¼ï¿½
 	 * @return PlatformStatus
 	 */
 	public String getPlatformStatus() {
 		return PlatformStatus;
 	}
 	/**
-	 * ³]©wPlatformStatus ­q³æÃþ«¬¡A­n¬d¸ßªº­q³æÃþ«¬
-	 * ­Y¬°¤@¯ë®É¡A«h°Ñ¼Æ½Ð±a1
-	 * ­Y¬°¥­¥x®É¡A«h°Ñ¼Æ½Ð±a2
-	 * ­Y¬°¥þ³¡®É¡A½Ð©¿²¤¦¹¤@°Ñ¼Æ
+	 * ï¿½]ï¿½wPlatformStatus ï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½nï¿½dï¿½ßªï¿½ï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	 * ï¿½Yï¿½ï¿½ï¿½@ï¿½ï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±a1
+	 * ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½xï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±a2
+	 * ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¡Aï¿½Ð©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½Ñ¼ï¿½
 	 * @param platformStatus
 	 */
 	public void setPlatformStatus(String platformStatus) {
 		PlatformStatus = platformStatus;
 	}
 	/**
-	 * ¨ú±oPaymentStatus ¥I´Úª¬ºA¡A­n¬d¸ßªº­q³æ¥I´Úª¬ºA 
-	 * ­Y¬°¥¼¥I´Ú®É¡A«h°Ñ¼Æ½Ð±a0 
-	 * ­Y¬°¤w¥I´Ú®É¡A«h°Ñ¼Æ½Ð±a1
-	 * ­Y¬°­q³æ¥¢±Ñ®É¡A«h°Ñ¼Æ½Ð±a2 
-	 * ­Y¬°¥þ³¡®É¡A½Ð©¿²¤¦¹¤@°Ñ¼Æ
+	 * ï¿½ï¿½ï¿½oPaymentStatus ï¿½Iï¿½Úªï¿½ï¿½Aï¿½Aï¿½nï¿½dï¿½ßªï¿½ï¿½qï¿½ï¿½Iï¿½Úªï¿½ï¿½A 
+	 * ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½Ú®É¡Aï¿½hï¿½Ñ¼Æ½Ð±a0 
+	 * ï¿½Yï¿½ï¿½ï¿½wï¿½Iï¿½Ú®É¡Aï¿½hï¿½Ñ¼Æ½Ð±a1
+	 * ï¿½Yï¿½ï¿½ï¿½qï¿½æ¥¢ï¿½Ñ®É¡Aï¿½hï¿½Ñ¼Æ½Ð±a2 
+	 * ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¡Aï¿½Ð©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½Ñ¼ï¿½
 	 * @return PaymentStatus
 	 */
 	public String getPaymentStatus() {
 		return PaymentStatus;
 	}
 	/**
-	 * ³]©wPaymentStatus ¥I´Úª¬ºA¡A­n¬d¸ßªº­q³æ¥I´Úª¬ºA 
-	 * ­Y¬°¥¼¥I´Ú®É¡A«h°Ñ¼Æ½Ð±a0 
-	 * ­Y¬°¤w¥I´Ú®É¡A«h°Ñ¼Æ½Ð±a1
-	 * ­Y¬°­q³æ¥¢±Ñ®É¡A«h°Ñ¼Æ½Ð±a2 
-	 * ­Y¬°¥þ³¡®É¡A½Ð©¿²¤¦¹¤@°Ñ¼Æ
+	 * ï¿½]ï¿½wPaymentStatus ï¿½Iï¿½Úªï¿½ï¿½Aï¿½Aï¿½nï¿½dï¿½ßªï¿½ï¿½qï¿½ï¿½Iï¿½Úªï¿½ï¿½A 
+	 * ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½Ú®É¡Aï¿½hï¿½Ñ¼Æ½Ð±a0 
+	 * ï¿½Yï¿½ï¿½ï¿½wï¿½Iï¿½Ú®É¡Aï¿½hï¿½Ñ¼Æ½Ð±a1
+	 * ï¿½Yï¿½ï¿½ï¿½qï¿½æ¥¢ï¿½Ñ®É¡Aï¿½hï¿½Ñ¼Æ½Ð±a2 
+	 * ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¡Aï¿½Ð©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½Ñ¼ï¿½
 	 * @param paymentStatus
 	 */
 	public void setPaymentStatus(String paymentStatus) {
 		PaymentStatus = paymentStatus;
 	}
 	/**
-	 * ¨ú±oAllocateStatus ¼·´Úª¬ºA¡A­n¬d¸ßªº­q³æ¼·´Úª¬ºA
-	 * ­Y¬°¥¼¼·´Ú®É¡A«h°Ñ¼Æ½Ð±a0
-	 * ­Y¬°¤w¼·´Ú®É¡A«h°Ñ¼Æ½Ð±a1
-	 * ­Y¬°¥þ³¡®É¡A½Ð©¿²¤¦¹¤@°Ñ¼Æ
+	 * ï¿½ï¿½ï¿½oAllocateStatus ï¿½ï¿½ï¿½Úªï¿½ï¿½Aï¿½Aï¿½nï¿½dï¿½ßªï¿½ï¿½qï¿½æ¼·ï¿½Úªï¿½ï¿½A
+	 * ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú®É¡Aï¿½hï¿½Ñ¼Æ½Ð±a0
+	 * ï¿½Yï¿½ï¿½ï¿½wï¿½ï¿½ï¿½Ú®É¡Aï¿½hï¿½Ñ¼Æ½Ð±a1
+	 * ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¡Aï¿½Ð©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½Ñ¼ï¿½
 	 * @return AllocateStatus
 	 */
 	public String getAllocateStatus() {
 		return AllocateStatus;
 	}
 	/**
-	 * ³]©wAllocateStatus ¼·´Úª¬ºA¡A­n¬d¸ßªº­q³æ¼·´Úª¬ºA
-	 * ­Y¬°¥¼¼·´Ú®É¡A«h°Ñ¼Æ½Ð±a0
-	 * ­Y¬°¤w¼·´Ú®É¡A«h°Ñ¼Æ½Ð±a1
-	 * ­Y¬°¥þ³¡®É¡A½Ð©¿²¤¦¹¤@°Ñ¼Æ
+	 * ï¿½]ï¿½wAllocateStatus ï¿½ï¿½ï¿½Úªï¿½ï¿½Aï¿½Aï¿½nï¿½dï¿½ßªï¿½ï¿½qï¿½æ¼·ï¿½Úªï¿½ï¿½A
+	 * ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú®É¡Aï¿½hï¿½Ñ¼Æ½Ð±a0
+	 * ï¿½Yï¿½ï¿½ï¿½wï¿½ï¿½ï¿½Ú®É¡Aï¿½hï¿½Ñ¼Æ½Ð±a1
+	 * ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¡Aï¿½Ð©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½Ñ¼ï¿½
 	 * @param allocateStatus
 	 */
 	public void setAllocateStatus(String allocateStatus) {
 		AllocateStatus = allocateStatus;
 	}
 	/**
-	 * ¨ú±oMediaFormated CSV®æ¦¡¡A­n¤U¸üªºÀÉ®×®æ¦¡ 
-	 * ­Y¬°ÂÂª©®æ¦¡®É¡A«h°Ñ¼Æ½Ð±a0 
-	 * ­Y¬°·sª©®æ¦¡®É¡A«h°Ñ¼Æ½Ð±a1
+	 * ï¿½ï¿½ï¿½oMediaFormated CSVï¿½æ¦¡ï¿½Aï¿½nï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½É®×®æ¦¡ 
+	 * ï¿½Yï¿½ï¿½ï¿½Âªï¿½ï¿½æ¦¡ï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±a0 
+	 * ï¿½Yï¿½ï¿½ï¿½sï¿½ï¿½ï¿½æ¦¡ï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±a1
 	 * @return MediaFormated
 	 */
 	public String getMediaFormated() {
 		return MediaFormated;
 	}
 	/**
-	 * ³]©wMediaFormated CSV®æ¦¡¡A­n¤U¸üªºÀÉ®×®æ¦¡ 
-	 * ­Y¬°ÂÂª©®æ¦¡®É¡A«h°Ñ¼Æ½Ð±a0 
-	 * ­Y¬°·sª©®æ¦¡®É¡A«h°Ñ¼Æ½Ð±a1
+	 * ï¿½]ï¿½wMediaFormated CSVï¿½æ¦¡ï¿½Aï¿½nï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½É®×®æ¦¡ 
+	 * ï¿½Yï¿½ï¿½ï¿½Âªï¿½ï¿½æ¦¡ï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±a0 
+	 * ï¿½Yï¿½ï¿½ï¿½sï¿½ï¿½ï¿½æ¦¡ï¿½É¡Aï¿½hï¿½Ñ¼Æ½Ð±a1
 	 * @param mediaFormated
 	 */
 	public void setMediaFormated(String mediaFormated) {
