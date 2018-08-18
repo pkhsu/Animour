@@ -23,7 +23,7 @@ public class PaymentVerifyBase{
 	
 	protected void requireCheck(String FieldName, String objValue, String require){
 		if(require.equals("1") && objValue.isEmpty())
-			throw new AllPayException(FieldName+"為必填");
+			throw new AllPayException(FieldName+"");
 	}
 	
 	protected void valueCheck(String type, String objValue, Element ele){
@@ -55,13 +55,13 @@ public class PaymentVerifyBase{
 			}
 			int value = Integer.valueOf(objValue);
 			if(mode.equals("GE") && value < Integer.valueOf(minimum)){
-				throw new AllPayException(ele.getAttribute("name")+"不能小於"+minimum);
+				throw new AllPayException(ele.getAttribute("name")+" "+minimum);
 			} else if(mode.equals("LE") && value > Integer.valueOf(maximum)){
-				throw new AllPayException(ele.getAttribute("name")+"不能大於"+maximum);
+				throw new AllPayException(ele.getAttribute("name")+" "+maximum);
 			} else if(mode.equals("BETWEEN") && value < Integer.valueOf(minimum) && value > Integer.valueOf(maximum)){
-				throw new AllPayException(ele.getAttribute("name")+"必須介於"+minimum+"和"+maximum+"之間");
+				throw new AllPayException(ele.getAttribute("name")+" "+minimum+" "+maximum+" ");
 			} else if(mode.equals("EXCLUDE") && value >= Integer.valueOf(minimum) && value <= Integer.valueOf(maximum)){
-				throw new AllPayException(ele.getAttribute("name")+"必須小於"+minimum+"或大於"+maximum);
+				throw new AllPayException(ele.getAttribute("name")+" "+minimum+" "+maximum);
 			}
 		} else if(type.equals("DepOpt")){
 			// TODO

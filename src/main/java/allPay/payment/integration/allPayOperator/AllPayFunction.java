@@ -33,7 +33,6 @@ import allPay.payment.integration.errorMsg.ErrorMessage;
 import allPay.payment.integration.exception.AllPayException;
 
 /**
- * 共用函式類別
  * @author mark.chiu
  *
  */
@@ -42,7 +41,6 @@ public class AllPayFunction {
 	private final static char[] hexArray = "0123456789ABCDEF".toCharArray();
 		
 	/**
-	 * 產生檢查碼
 	 * @param key
 	 * @param iv
 	 * @param obj
@@ -68,7 +66,6 @@ public class AllPayFunction {
 	}
 	
 	/**
-	 * 產生檢查碼
 	 * @param key
 	 * @param iv
 	 * @param Hashtable<String, String> params
@@ -91,7 +88,6 @@ public class AllPayFunction {
 	}
 	
 	/**
-	 * 將物件的屬性與檢查碼組合成http的參數資料格式
 	 * @param obj
 	 * @param CheckMacValue
 	 * @return string
@@ -114,7 +110,6 @@ public class AllPayFunction {
 	}
 	
 	/**
-	 * 將物件轉為Hashtable
 	 * @param obj
 	 * @return Hashtable
 	 */
@@ -143,7 +138,6 @@ public class AllPayFunction {
 	}
 	
 	/**
-	 * client http post的功能
 	 * @param url
 	 * @param urlParameters
 	 * @return response string
@@ -181,7 +175,6 @@ public class AllPayFunction {
 	}
 	
 	/**
-	 * 產生 Unix TimeStamp
 	 * @return TimeStamp
 	 */
 	public final static String genUnixTimeStamp(){
@@ -203,7 +196,6 @@ public class AllPayFunction {
 	}
 	
 	/**
-	 * https 處理
 	 */
 	private static void trustAllHosts() {
 		
@@ -246,7 +238,7 @@ public class AllPayFunction {
 	}
 	
 	/**
-	 * 針對物件內屬性的參數作排序
+	 * 嚙緩嚙踝物嚙踝蕭嚙豎性迎蕭嚙諸數作嚙複改蕭
 	 * @param Class
 	 * @return List
 	 */
@@ -261,7 +253,6 @@ public class AllPayFunction {
 	}
 	
 	/**
-	 * 將資料做 urlEncode編碼
 	 * @param data
 	 * @return url encoded string
 	 */
@@ -275,7 +266,7 @@ public class AllPayFunction {
 	}
 	
 	/**
-	 * 將做完的urlEncode字串做轉換符合 .NET語言的轉換規則
+	 * 嚙瞇嚙踝蕭嚙踝蕭嚙踝蕭urlEncode嚙緝嚙赭做嚙賞換嚙褐合 .NET嚙緙嚙踝蕭嚙踝蕭嚙賞換嚙磕嚙篁
 	 * @param url
 	 * @return .Net url encoded string
 	 */
@@ -285,7 +276,6 @@ public class AllPayFunction {
 	}
 	
 	/**
-	 * 將 byte array 資料做 hash md5或 sha256 運算，並回傳 hex值的字串資料
 	 * @param data
 	 * @param isMD5
 	 * @return string
@@ -305,7 +295,6 @@ public class AllPayFunction {
 	}
 	
 	/**
-	 * 將 byte array 資料轉換成 hex字串值
 	 * @param bytes
 	 * @return string
 	 */
