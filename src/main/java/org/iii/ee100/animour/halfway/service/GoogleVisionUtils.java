@@ -15,7 +15,7 @@ public class GoogleVisionUtils {
 
 	// 金鑰及rest URL
 	private static final String TARGET_URL = "https://vision.googleapis.com/v1/images:annotate?";
-	private static final String API_KEY = "key=AIzaSyBKKkqIwxvLdgC1bB5dgt5gbEhnL-TUn7A";
+	private static final String API_KEY = "";
 
 	public static String visionApiRequest(String imageUrl) throws IOException {
 
